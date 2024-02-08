@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 01:53:28</sys_created_on>
+        <sys_id>64ef69204744021008334d05516d4316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_case_b_0_atendente.x_1174267_case_b_0.admin</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_security_acl display_value="x_1174267_case_b_0_atendente">e8efe5204744021008334d05516d43c3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_64ef69204744021008334d05516d4316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 01:53:28</sys_updated_on>
+        <sys_user_role display_value="x_1174267_case_b_0.admin" name="x_1174267_case_b_0.admin">89eb252c4704021008334d05516d434b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_security_acl_role_64ef69204744021008334d05516d4316</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-27 01:53:28</sys_created_on><sys_id>64ef69204744021008334d05516d4316</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1174267_case_b_0_atendente.x_1174267_case_b_0.admin</sys_name><sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package><sys_policy/><sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope><sys_security_acl display_value="x_1174267_case_b_0_atendente">e8efe5204744021008334d05516d43c3</sys_security_acl><sys_update_name>sys_security_acl_role_64ef69204744021008334d05516d4316</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-27 01:53:28</sys_updated_on><sys_user_role display_value="x_1174267_case_b_0.admin" name="x_1174267_case_b_0.admin">89eb252c4704021008334d05516d434b</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-249942057</payload_hash>
+        <record_name>x_1174267_case_b_0_atendente.x_1174267_case_b_0.admin</record_name>
+        <reverted_from/>
+        <source>cdeb252c4704021008334d05516d4346</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 01:53:28</sys_created_on>
+        <sys_id>e8ef69204744021008334d05516d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d489f30680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 01:53:28</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>20ef6920b644021011140c7257dfa618</update_guid>
+        <update_guid_history>20ef6920b644021011140c7257dfa618:-249942057</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1174267_case_b_0_atendente.x_1174267_case_b_0.admin">7827a5fd4780021008334d05516d439e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 22:27:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3b519231e8a14049938853c4f7027219</sys_id>
+        <sys_metadata>64ef69204744021008334d05516d4316</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_case_b_0_atendente.x_1174267_case_b_0.admin</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_parent display_value="">e8efe5204744021008334d05516d43c3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_scope_delete display_value="">01e6c8d2601048c880237a851a04b864</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_64ef69204744021008334d05516d4316</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_64ef69204744021008334d05516d4316">e8ef69204744021008334d05516d4318</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 22:27:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f3bc616c4704021008334d05516d439a" label="Candidatos" max_length="40" name="x_1174267_case_b_0_candidatos" type="collection">
+        <element label="Anexo" max_length="40" name="anexo" type="file_attachment"/>
+        <element label="Email" max_length="1000" name="email" type="string"/>
+        <element label="Endereço" max_length="1000" name="endereco" type="string"/>
+        <element label="Nome" max_length="1000" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Telefone" max_length="1000" name="telefone" type="string"/>
+    </element>
+</database>

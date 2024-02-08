@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2097adfd4780021008334d05516d43e9" label="Gestores" max_length="40" name="x_1174267_case_b_0_gestores" type="collection">
+        <element choice="1" label="Addtional Questions" max_length="40" name="addtional_questions" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="true" sequence="0" value="true"/>
+                <element inactive_on_update="false" sequence="1"/>
+            </choice>
+        </element>
+        <element label="Atribuido a" max_length="32" name="atribuido_a" reference="sys_user" type="reference"/>
+        <element label="Candidato" max_length="40" name="candidato" type="string"/>
+        <element label="Descrição" max_length="1000" name="descricao" type="string"/>
+        <element label="Descrição Resumida" max_length="150" name="descricao_resumida" type="string"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="Grupo Atribuido" max_length="32" name="grupo_atribuido" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Analisando candidato" sequence="0" value="analisando_candidato"/>
+                <element inactive_on_update="false" label="Data da entrevista agendada" sequence="1" value="data_da_entrevista_agendada"/>
+                <element inactive_on_update="false" label="Entrevista cancelada" sequence="2" value="entrevista_cancelada"/>
+                <element inactive_on_update="false" label="Avaliação time técnico" sequence="3" value="avalia_o_time_t_cnico"/>
+                <element inactive_on_update="false" label="Entrevista técnica agendada" sequence="4" value="entrevista_t_cnica_agendada"/>
+                <element inactive_on_update="false" label="Entrevista técnica cancelada" sequence="5" value="entrevista_t_cnica_cancelada"/>
+                <element inactive_on_update="false" label="Candidato aprovado" sequence="6" value="candidato_aprovado"/>
+                <element inactive_on_update="false" label="Candidato reprovado" sequence="7" value="candidato_reprovado"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="atribuido_a"/>
+        </index>
+        <index name="index2">
+            <element name="grupo_atribuido"/>
+        </index>
+    </element>
+</database>
