@@ -8,10 +8,22 @@
         </element>
         <element label="Atribuido a" max_length="32" name="atribuido_a" reference="sys_user" type="reference"/>
         <element label="Candidato" max_length="40" name="candidato" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cidade" max_length="40" name="cidade" type="string"/>
         <element label="Descrição" max_length="1000" name="descricao" type="string"/>
         <element label="Descrição Resumida" max_length="150" name="descricao_resumida" type="string"/>
         <element label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Estado" max_length="40" name="estado" type="string"/>
         <element label="Grupo Atribuido" max_length="32" name="grupo_atribuido" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="ID Do Candidato" max_length="32" name="id_candidato" reference="x_1174267_case_b_0_candidatos" reference_qual="numberANYTHING^EQ" reference_qual_condition="numberANYTHING^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;gs.info(&quot;TESTANDO:&quot; + current.id_candidato);&#13;&#10;&#9;var id = 'CAND0001008';&#13;&#10;&#9;var gr = new GlideRecord('x_1174267_case_b_0_candidatos');&#13;&#10;&#9;&#13;&#10;&#9;gr.addQuery('number', id);&#13;&#10;&#9;gr.query();&#13;&#10;&#13;&#10;&#9;if(gr.next()){&#13;&#10;&#9;&#9;gs.info('NUMERO DO CNADIDATO' + gr.getDisplayValue('number'));&#13;&#10;&#9;&#9;gs.info('NUMERO DO CNADIDATO' + gr.getDisplayValue('nome'));&#13;&#10;&#9;&#9;gs.info('valor do namereferencia' + current.namereferencia)&#13;&#10;&#9;&#9;current.namereferencia = gr.getDisplayValue('number');&#13;&#10;&#9;}&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dynamic_default_value="ce2640a947f0021008334d05516d433f" label="Nome referencia" max_length="32" name="namereferencia" type="string" use_dynamic_default="true" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Nivel Técnico" max_length="40" name="nivel_tecnico" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Júnior" sequence="0" value="junior"/>
+                <element inactive_on_update="false" label="Pleno" sequence="1" value="pleno"/>
+                <element inactive_on_update="false" label="Sênior" sequence="2" value="senior"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nome" max_length="40" name="nome" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
@@ -25,11 +37,22 @@
                 <element inactive_on_update="false" label="Candidato reprovado" sequence="7" value="candidato_reprovado"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Telefone" max_length="40" name="telefone" type="string"/>
+        <element attributes="encode_utf8=false" label="Teste" max_length="32" name="u_reference_1" reference="x_1174267_case_b_0_candidatos" type="reference"/>
         <index name="index">
             <element name="atribuido_a"/>
         </index>
         <index name="index2">
             <element name="grupo_atribuido"/>
+        </index>
+        <index name="index3">
+            <element name="id_candidato"/>
+        </index>
+        <index name="index4">
+            <element name="namereferencia"/>
+        </index>
+        <index name="index5">
+            <element name="u_reference_1"/>
         </index>
     </element>
 </database>

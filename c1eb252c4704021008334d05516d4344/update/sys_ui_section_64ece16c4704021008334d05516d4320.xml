@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-27 01:51:31</sys_created_on>
-            <sys_id>376f61204744021008334d05516d4306</sys_id>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>82b83fd947b0021008334d05516d43f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-27 01:51:31</sys_updated_on>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>nome</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-27 01:51:31</sys_created_on>
-            <sys_id>3f6f61204744021008334d05516d4306</sys_id>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>06b83fd947b0021008334d05516d43f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-27 01:51:31</sys_updated_on>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,55 +32,139 @@
             <element>email</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-27 01:51:31</sys_created_on>
-            <sys_id>336f61204744021008334d05516d4307</sys_id>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>86b83fd947b0021008334d05516d43f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-27 01:51:31</sys_updated_on>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>telefone</element>
+            <element>cpf</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-27 01:51:31</sys_created_on>
-            <sys_id>376f61204744021008334d05516d4307</sys_id>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>0ab83fd947b0021008334d05516d43f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-27 01:51:31</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>endereco</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-27 01:51:31</sys_created_on>
-            <sys_id>3b6f61204744021008334d05516d4307</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-27 01:51:31</sys_updated_on>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>anexo</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-27 01:51:31</sys_created_on>
-            <sys_id>3f6f61204744021008334d05516d4307</sys_id>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>8ab83fd947b0021008334d05516d43f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-27 01:51:31</sys_updated_on>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>chave_de_acesso</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>0eb83fd947b0021008334d05516d43f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>8eb83fd947b0021008334d05516d43f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_de_nascimento</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>02b83fd947b0021008334d05516d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estado_civil</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>82b83fd947b0021008334d05516d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telefone</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>06b83fd947b0021008334d05516d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>genero</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>86b83fd947b0021008334d05516d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grau_de_escolaridade</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 02:33:51</sys_created_on>
+            <sys_id>0ab83fd947b0021008334d05516d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 02:33:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

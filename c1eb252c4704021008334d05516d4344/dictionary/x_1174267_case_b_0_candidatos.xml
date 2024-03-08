@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f3bc616c4704021008334d05516d439a" label="Candidatos" max_length="40" name="x_1174267_case_b_0_candidatos" type="collection">
         <element label="Anexo" max_length="40" name="anexo" type="file_attachment"/>
-        <element label="Email" max_length="1000" name="email" type="string"/>
-        <element label="Endereço" max_length="1000" name="endereco" type="string"/>
-        <element label="Nome" max_length="1000" name="nome" type="string"/>
+        <element label="Bairro" max_length="200" name="bairro" type="string"/>
+        <element label="Cep" max_length="200" name="cep" type="string"/>
+        <element label="Chave de Acesso" max_length="40" name="chave_de_acesso" type="string"/>
+        <element label="Cidade" max_length="40" name="cidade" type="string"/>
+        <element label="CPF" max_length="40" name="cpf" type="string"/>
+        <element label="Data de Nascimento" max_length="40" name="data_de_nascimento" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Endereço" max_length="100" name="endereco" type="string"/>
+        <element label="Estado" max_length="200" name="estado" type="string"/>
+        <element choice="3" label="Estado civil" max_length="40" name="estado_civil" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Solteiro" sequence="0" value="solteiro"/>
+                <element inactive_on_update="false" label="Casado" sequence="1" value="casado"/>
+            </choice>
+        </element>
+        <element label="Experiências 01" max_length="2000" name="experiencias_01" type="string"/>
+        <element label="Experiências 02" max_length="2000" name="experiencias_02" type="string"/>
+        <element label="Experiências 03" max_length="2000" name="experiencias_03" type="string"/>
+        <element choice="1" label="Gênero" max_length="40" name="genero" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Masculino" sequence="0" value="masculino"/>
+                <element inactive_on_update="false" label="Feminino" sequence="1" value="feminino"/>
+                <element inactive_on_update="false" label="Outra opcao" sequence="2" value="outra_opcao"/>
+            </choice>
+        </element>
+        <element choice="1" label="Grau de Escolaridade" max_length="40" name="grau_de_escolaridade" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ensino Fundamental" sequence="0" value="ensino_fundamental"/>
+                <element inactive_on_update="false" label="Ensino Fundamental Incompleto" sequence="1" value="ensino_fundamental_incompleto"/>
+                <element inactive_on_update="false" label="Ensino Médio incompleto" sequence="2" value="ensino_m_dio_incompleto"/>
+                <element inactive_on_update="false" label="Ensino Médio" sequence="3" value="ensino_m_dio"/>
+                <element inactive_on_update="false" label="Graduação" sequence="4" value="graduacao_completa"/>
+                <element inactive_on_update="false" label="Graduação incompleta" sequence="5" value="gradua_o_incompleta"/>
+                <element inactive_on_update="false" label="Pós Graduação" sequence="6" value="pos_graduacao"/>
+            </choice>
+        </element>
+        <element choice="1" label="Idiomas Espanhol" max_length="40" name="idiomas_espanhol" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Básico" sequence="0" value="basico"/>
+                <element inactive_on_update="false" label="Intermediário" sequence="1" value="intermediario"/>
+                <element inactive_on_update="false" label="Fluente" sequence="2" value="fluente"/>
+            </choice>
+        </element>
+        <element choice="1" label="Idiomas Inglês" max_length="40" name="idiomas_ingles" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Básico" sequence="0" value="basico"/>
+                <element inactive_on_update="false" label="Intermediário" sequence="1" value="intermediario"/>
+                <element inactive_on_update="false" label="Fluente" sequence="2" value="fluente"/>
+            </choice>
+        </element>
+        <element choice="1" label="Idiomas Português" max_length="40" name="idiomas_portugues" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Básico" sequence="0" value="basico"/>
+                <element inactive_on_update="false" label="Intermediário" sequence="1" value="intermediario"/>
+                <element inactive_on_update="false" label="Fluente" sequence="2" value="fluente"/>
+            </choice>
+        </element>
+        <element choice="1" label="Nível Técnico" max_length="40" name="nivel_tecnico" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Junior" sequence="0" value="junior"/>
+                <element inactive_on_update="false" label="Pleno" sequence="1" value="pleno"/>
+                <element inactive_on_update="false" label="Sênior" sequence="2" value="senior"/>
+            </choice>
+        </element>
+        <element label="Nome" max_length="30" name="nome" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Telefone" max_length="1000" name="telefone" type="string"/>
+        <element label="Adicional Expectativa Salarial" max_length="1000" name="pergunta_adicional_1" type="string"/>
+        <element label="Adicional Projeto Importante" max_length="1000" name="pergunta_adicional_2" type="string"/>
+        <element label="Adicional Justificativa" max_length="1000" name="pergunta_adicional_3" type="string"/>
+        <element label="Rua" max_length="200" name="rua" type="string"/>
+        <element label="Telefone" max_length="20" name="telefone" type="string"/>
     </element>
 </database>

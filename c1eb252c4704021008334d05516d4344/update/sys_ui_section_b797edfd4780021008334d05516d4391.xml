@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:31:04</sys_created_on>
-            <sys_id>ada5b57d47c0021008334d05516d4358</sys_id>
+            <sys_created_on>2024-03-08 15:31:56</sys_created_on>
+            <sys_id>256437b94730021008334d05516d43fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:31:04</sys_updated_on>
+            <sys_updated_on>2024-03-08 15:31:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,97 +18,97 @@
             <element>atribuido_a</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:31:04</sys_created_on>
-            <sys_id>a5a5b57d47c0021008334d05516d4359</sys_id>
+            <sys_created_on>2024-03-08 15:31:56</sys_created_on>
+            <sys_id>a56437b94730021008334d05516d43fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:31:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>grupo_atribuido</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:31:04</sys_created_on>
-            <sys_id>a9a5b57d47c0021008334d05516d4359</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:31:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>email</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:31:04</sys_created_on>
-            <sys_id>ada5b57d47c0021008334d05516d4359</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:31:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>descricao_resumida</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:31:04</sys_created_on>
-            <sys_id>a1a5b57d47c0021008334d05516d435a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:31:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>descricao</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:31:04</sys_created_on>
-            <sys_id>a5a5b57d47c0021008334d05516d435a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:31:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:31:04</sys_created_on>
-            <sys_id>a9a5b57d47c0021008334d05516d435a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:31:04</sys_updated_on>
+            <sys_updated_on>2024-03-08 15:31:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>addtional_questions</element>
-            <position>7</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:31:04</sys_created_on>
-            <sys_id>ada5b57d47c0021008334d05516d435a</sys_id>
+            <sys_created_on>2024-03-08 15:31:56</sys_created_on>
+            <sys_id>296437b94730021008334d05516d43fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:31:04</sys_updated_on>
+            <sys_updated_on>2024-03-08 15:31:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 15:31:56</sys_created_on>
+            <sys_id>a96437b94730021008334d05516d43fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 15:31:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grupo_atribuido</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 15:31:56</sys_created_on>
+            <sys_id>2d6437b94730021008334d05516d43fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 15:31:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 15:31:56</sys_created_on>
+            <sys_id>ad6437b94730021008334d05516d43fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 15:31:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 15:31:56</sys_created_on>
+            <sys_id>216437b94730021008334d05516d43fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 15:31:56</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>descricao_resumida</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 15:31:56</sys_created_on>
+            <sys_id>a16437b94730021008334d05516d43fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="Default view">b797edfd4780021008334d05516d4391</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 15:31:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
