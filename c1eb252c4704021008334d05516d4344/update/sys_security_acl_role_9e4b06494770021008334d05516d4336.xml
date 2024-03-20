@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-03-05 23:57:14</sys_updated_on>
         <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

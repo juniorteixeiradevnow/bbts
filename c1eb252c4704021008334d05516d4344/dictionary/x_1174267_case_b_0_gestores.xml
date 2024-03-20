@@ -3,7 +3,7 @@
         <element choice="1" label="Addtional Questions" max_length="40" name="addtional_questions" type="choice">
             <choice>
                 <element inactive_on_update="false" label="true" sequence="0" value="true"/>
-                <element inactive_on_update="false" sequence="1"/>
+                <element inactive_on_update="false" label="false" sequence="1" value="false"/>
             </choice>
         </element>
         <element label="Atribuido a" max_length="32" name="atribuido_a" reference="sys_user" type="reference"/>
@@ -15,7 +15,7 @@
         <element attributes="edge_encryption_enabled=true" label="Estado" max_length="40" name="estado" type="string"/>
         <element label="Grupo Atribuido" max_length="32" name="grupo_atribuido" reference="sys_user_group" type="reference"/>
         <element attributes="encode_utf8=false" label="ID Do Candidato" max_length="32" name="id_candidato" reference="x_1174267_case_b_0_candidatos" reference_qual="numberANYTHING^EQ" reference_qual_condition="numberANYTHING^EQ" type="reference"/>
-        <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;gs.info(&quot;TESTANDO:&quot; + current.id_candidato);&#13;&#10;&#9;var id = 'CAND0001008';&#13;&#10;&#9;var gr = new GlideRecord('x_1174267_case_b_0_candidatos');&#13;&#10;&#9;&#13;&#10;&#9;gr.addQuery('number', id);&#13;&#10;&#9;gr.query();&#13;&#10;&#13;&#10;&#9;if(gr.next()){&#13;&#10;&#9;&#9;gs.info('NUMERO DO CNADIDATO' + gr.getDisplayValue('number'));&#13;&#10;&#9;&#9;gs.info('NUMERO DO CNADIDATO' + gr.getDisplayValue('nome'));&#13;&#10;&#9;&#9;gs.info('valor do namereferencia' + current.namereferencia)&#13;&#10;&#9;&#9;current.namereferencia = gr.getDisplayValue('number');&#13;&#10;&#9;}&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dynamic_default_value="ce2640a947f0021008334d05516d433f" label="Nome referencia" max_length="32" name="namereferencia" type="string" use_dynamic_default="true" virtual="true"/>
+        <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#10;&#9;gs.info(&quot;TESTANDO:&quot; + current.id_candidato);&#10;&#9;var id = 'CAND0001008';&#10;&#9;var gr = new GlideRecord('x_1174267_case_b_0_candidatos');&#10;&#9;&#10;&#9;gr.addQuery('number', id);&#10;&#9;gr.query();&#10;&#10;&#9;if(gr.next()){&#10;&#9;&#9;gs.info('NUMERO DO CNADIDATO' + gr.getDisplayValue('number'));&#10;&#9;&#9;gs.info('NUMERO DO CNADIDATO' + gr.getDisplayValue('nome'));&#10;&#9;&#9;gs.info('valor do namereferencia' + current.namereferencia)&#10;&#9;&#9;current.namereferencia = gr.getDisplayValue('number');&#10;&#9;}&#10;&#10;&#9;// Add your code here&#10;&#9;return '';  // return the calculated value&#10;&#10;})(current);" dynamic_default_value="ce2640a947f0021008334d05516d433f" label="Nome referencia" max_length="32" name="namereferencia" type="string" use_dynamic_default="true" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Nivel Técnico" max_length="40" name="nivel_tecnico" type="string">
             <choice>
                 <element inactive_on_update="false" label="Júnior" sequence="0" value="junior"/>
@@ -25,7 +25,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Nome" max_length="40" name="nome" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+        <element choice="1" display="true" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Analisando candidato" sequence="0" value="analisando_candidato"/>
                 <element inactive_on_update="false" label="Data da entrevista agendada" sequence="1" value="data_da_entrevista_agendada"/>
@@ -43,13 +43,13 @@
             <element name="atribuido_a"/>
         </index>
         <index name="index2">
-            <element name="grupo_atribuido"/>
+            <element name="namereferencia"/>
         </index>
         <index name="index3">
-            <element name="id_candidato"/>
+            <element name="grupo_atribuido"/>
         </index>
         <index name="index4">
-            <element name="namereferencia"/>
+            <element name="id_candidato"/>
         </index>
         <index name="index5">
             <element name="u_reference_1"/>

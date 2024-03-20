@@ -67,10 +67,23 @@
         </element>
         <element label="Nome" max_length="30" name="nome" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="sim" label="Perguntas respondidas" max_length="40" name="perguntas_respondidas" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="nao"/>
+            </choice>
+        </element>
         <element label="Adicional Expectativa Salarial" max_length="1000" name="pergunta_adicional_1" type="string"/>
         <element label="Adicional Projeto Importante" max_length="1000" name="pergunta_adicional_2" type="string"/>
         <element label="Adicional Justificativa" max_length="1000" name="pergunta_adicional_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="sim" label="Respondido" max_length="40" name="respondido" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="nao"/>
+            </choice>
+        </element>
         <element label="Rua" max_length="200" name="rua" type="string"/>
+        <element dependent="status" dependent_on_field="status" label="Status" max_length="40" name="status" reference="x_1174267_case_b_0_gestores" type="string" use_dependent_field="true"/>
         <element label="Telefone" max_length="20" name="telefone" type="string"/>
     </element>
 </database>

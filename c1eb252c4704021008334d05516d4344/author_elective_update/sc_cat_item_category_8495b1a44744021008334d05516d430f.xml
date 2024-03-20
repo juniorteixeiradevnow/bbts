@@ -41,7 +41,7 @@
         <update_guid_history>c495b1a40a440210d7db3bc2ac702912:1776799490</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Office.Formulário Candidatos">68a5f1a44744021008334d05516d4391</sys_audit_delete>
+        <sys_audit_delete display_value="">68a5f1a44744021008334d05516d4391</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-27 02:18:36</sys_created_on>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>Prime Video Now</application_name>
+        <bucket_document_id>6956701f97f402505e9fb680f053af2d</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type>service_portal</bucket_type>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_1174267_case_b_0.sp_portal.6956701f97f402505e9fb680f053af2d</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-12 17:32:58</sys_created_on>
+        <sys_id>6d76741f97f402505e9fb680f053affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prime Video Now</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sys_analytics_bucket_6d76741f97f402505e9fb680f053affa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-12 17:32:58</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

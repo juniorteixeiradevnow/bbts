@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="perguntas_respondidas" table="x_1174267_case_b_0_candidatos" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>perguntas_respondidas</element>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 03:49:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>perguntas_respondidas</sys_name>
+            <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+            <sys_update_name>sys_choice_x_1174267_case_b_0_candidatos_perguntas_respondidas</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 03:49:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>perguntas_respondidas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sim</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 03:49:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 03:49:01</sys_updated_on>
+            <value>sim</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>perguntas_respondidas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Não</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 03:49:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 03:49:01</sys_updated_on>
+            <value>nao</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -40,12 +40,13 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>true</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Junior  Teixeira">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -87,21 +88,22 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-06 00:09:56</sys_created_on>
         <sys_id>143e0e0d4770021008334d05516d437c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Perguntas adicionais dos Candidatos</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sc_cat_item_producer_143e0e0d4770021008334d05516d437c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-06 00:22:22</sys_updated_on>
-        <table_name>x_1174267_case_b_0_candidatos</table_name>
+        <sys_updated_on>2024-03-11 19:48:41</sys_updated_on>
+        <table_name/>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version>25</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

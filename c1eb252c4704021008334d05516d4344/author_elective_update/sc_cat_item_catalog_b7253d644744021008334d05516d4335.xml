@@ -41,7 +41,7 @@
         <update_guid_history>3b253d64a644021056cee41d982a0937:852114217</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Formulário Candidatos">c495b1a44744021008334d05516d4301</sys_audit_delete>
+        <sys_audit_delete display_value="">c495b1a44744021008334d05516d4301</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-27 02:18:17</sys_created_on>
