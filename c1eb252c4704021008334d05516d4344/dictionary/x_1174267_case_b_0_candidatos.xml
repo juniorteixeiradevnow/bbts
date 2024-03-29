@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f3bc616c4704021008334d05516d439a" label="Candidatos" max_length="40" name="x_1174267_case_b_0_candidatos" type="collection">
+    <element db_object_id="f3bc616c4704021008334d05516d439a" label="Candidatos" max_length="40" name="x_1174267_case_b_0_candidatos" text_index="true" type="collection">
         <element label="Anexo" max_length="40" name="anexo" type="file_attachment"/>
         <element label="Bairro" max_length="200" name="bairro" type="string"/>
         <element label="Cep" max_length="200" name="cep" type="string"/>
         <element label="Chave de Acesso" max_length="40" name="chave_de_acesso" type="string"/>
         <element label="Cidade" max_length="40" name="cidade" type="string"/>
         <element label="CPF" max_length="40" name="cpf" type="string"/>
-        <element label="Data de Nascimento" max_length="40" name="data_de_nascimento" type="string"/>
+        <element label="Data de Nascimento" max_length="40" name="data_de_nascimento" type="glide_date"/>
         <element label="Email" max_length="40" name="email" type="string"/>
         <element label="Endereço" max_length="100" name="endereco" type="string"/>
         <element label="Estado" max_length="200" name="estado" type="string"/>
@@ -58,16 +58,16 @@
                 <element inactive_on_update="false" label="Fluente" sequence="2" value="fluente"/>
             </choice>
         </element>
-        <element choice="1" label="Nível Técnico" max_length="40" name="nivel_tecnico" type="choice">
+        <element choice="1" label="NIvel Ténico" max_length="40" name="nivel_tecnico" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Junior" sequence="0" value="junior"/>
-                <element inactive_on_update="false" label="Pleno" sequence="1" value="pleno"/>
-                <element inactive_on_update="false" label="Sênior" sequence="2" value="senior"/>
+                <element inactive_on_update="false" label="Junior" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Pleno" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Sênior" sequence="2" value="3"/>
             </choice>
         </element>
         <element label="Nome" max_length="30" name="nome" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="sim" label="Perguntas respondidas" max_length="40" name="perguntas_respondidas" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="nao" label="Perguntas respondidas" max_length="40" name="perguntas_respondidas" type="string">
             <choice>
                 <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
                 <element inactive_on_update="false" label="Não" sequence="1" value="nao"/>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Home Prime Video - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="home_prime_video">50c67c1f97f402505e9fb680f053af58</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 22:20:46</sys_created_on>
+        <sys_id>a9c190244791021024403698c26d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Prime Video - Container 1</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sp_container_a9c190244791021024403698c26d4324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 22:20:46</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sp_container_a9c190244791021024403698c26d4324</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Home Prime Video - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="home_prime_video">50c67c1f97f402505e9fb680f053af58</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-28 22:20:46</sys_created_on><sys_id>a9c190244791021024403698c26d4324</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Home Prime Video - Container 1</sys_name><sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package><sys_policy/><sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope><sys_update_name>sp_container_a9c190244791021024403698c26d4324</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-28 22:20:46</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1564961025</payload_hash>
+        <record_name>Home Prime Video - Container 1</record_name>
+        <reverted_from/>
+        <source>fc3fe3fd973c4a105e9fb680f053af95</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 22:20:46</sys_created_on>
+        <sys_id>69c190644791021024403698c26d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e8726bcd60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 22:20:46</sys_updated_on>
+        <type>Container</type>
+        <update_guid>6dc190648691021078d79802faae312e</update_guid>
+        <update_guid_history>6dc190648691021078d79802faae312e:-1564961025</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home Prime Video - Container 1">94d1d0644791021024403698c26d436f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 22:20:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>73b73baf2a3349b691544375cd275c69</sys_id>
+        <sys_metadata>a9c190244791021024403698c26d4324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Prime Video - Container 1</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_scope_delete display_value="">01e6c8d2601048c880237a851a04b864</sys_scope_delete>
+        <sys_update_name>sp_container_a9c190244791021024403698c26d4324</sys_update_name>
+        <sys_update_version display_value="sp_container_a9c190244791021024403698c26d4324">69c190644791021024403698c26d432f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 22:20:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

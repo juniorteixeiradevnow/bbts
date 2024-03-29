@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>* {&#13;
+  margin: 0;&#13;
+  padding: 0;&#13;
+  box-sizing: border-box;&#13;
+}&#13;
+&#13;
+/* navbar css */&#13;
+&#13;
+#navbar-custom {&#13;
+  background-color: black;&#13;
+  color: white;&#13;
+}&#13;
+#navbar-custom ul {&#13;
+  font-weight: 500;&#13;
+}&#13;
+.fa-angle-down {&#13;
+  display: inline;&#13;
+}&#13;
+.user-icon {&#13;
+  padding: 5px;&#13;
+  border-radius: 45%;&#13;
+}&#13;
+.user-icon:hover {&#13;
+  cursor: pointer;&#13;
+}&#13;
+.search-icon:hover {&#13;
+  cursor: pointer;&#13;
+}&#13;
+/* content css  */&#13;
+.card-custom {&#13;
+  border-radius: 0;&#13;
+}&#13;
+.card-custom img {&#13;
+  opacity: 0.7;&#13;
+  min-height: 100vh;&#13;
+}&#13;
+&#13;
+.card-custom button {&#13;
+  border-radius: 0;&#13;
+  font-weight: 600;&#13;
+}&#13;
+.after-image {&#13;
+  margin-top: 96px;&#13;
+}&#13;
+&#13;
+.after-image .card-title{&#13;
+  font-size: 5rem !important;&#13;
+  text-align: center;&#13;
+  font-weight: 800;&#13;
+}&#13;
+.after-image p{&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.after-image .d-grid{&#13;
+  margin: 0 auto;&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+/* movie rental css */&#13;
+.movie-rental {&#13;
+  position: relative;&#13;
+}&#13;
+.rental-image {&#13;
+  position: absolute;&#13;
+  top: 5%;&#13;
+  left: 45%;&#13;
+  margin-top: 96px;&#13;
+  float: right;&#13;
+}&#13;
+&#13;
+.movie-rental .card-img {&#13;
+  max-height: 100vh;&#13;
+  border-radius: 0;&#13;
+}&#13;
+.movie-rental button {&#13;
+  border-radius: 0;&#13;
+  font-weight: 600;&#13;
+}&#13;
+&#13;
+.movie-rental h3,&#13;
+.movie-rental p {&#13;
+  font-weight: 360;&#13;
+}&#13;
+/* favorite channels css */&#13;
+.fav-channels h3,&#13;
+.fav-channels p {&#13;
+  font-weight: 360;&#13;
+}&#13;
+.channel img {&#13;
+  width: 183px;&#13;
+}&#13;
+.channel img:hover {&#13;
+  cursor: pointer;&#13;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,&#13;
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;&#13;
+  transform: scale(1.04);&#13;
+  transition: 0.5s;&#13;
+}&#13;
+&#13;
+/* remote section css */&#13;
+.remote-section {&#13;
+  margin-top: 80px;&#13;
+}&#13;
+&#13;
+.remote-img {&#13;
+  width: 100%;&#13;
+  mix-blend-mode: multiply;&#13;
+  transform: rotate(340deg);&#13;
+}&#13;
+&#13;
+.remote-section h3,&#13;
+.remote-section p {&#13;
+  font-weight: 360;&#13;
+}&#13;
+.remote-section button {&#13;
+  border-radius: 0;&#13;
+}&#13;
+&#13;
+/* footer */&#13;
+footer {&#13;
+  position: relative;&#13;
+}&#13;
+.arrow-img img {&#13;
+  position: absolute;&#13;
+  top: -80px;&#13;
+  left: 90%;&#13;
+  width: 60px;&#13;
+  mix-blend-mode: multiply;&#13;
+  color: white;&#13;
+}&#13;
+.arrow-img img:hover {&#13;
+  cursor: pointer;&#13;
+  transform: scale(1.04);&#13;
+  transition: 0.5s;&#13;
+}&#13;
+&#13;
+/* media queries for mobile*/&#13;
+@media only screen and (max-width: 767px) {&#13;
+  body {&#13;
+    overflow-x: hidden;&#13;
+  }&#13;
+  /* navbar css */&#13;
+  .navbar-toggler-icon {&#13;
+    color: white !important;&#13;
+  }&#13;
+  #navbar-custom .prime-video {&#13;
+    position: relative;&#13;
+    left: 10%;&#13;
+  }&#13;
+  .arrow-img img {&#13;
+    left: 78%;&#13;
+    width: 52px;&#13;
+  }&#13;
+  /* content css */&#13;
+  .card-custom img {&#13;
+    opacity: 0.7;&#13;
+    min-height: 22vh;&#13;
+  }&#13;
+&#13;
+  .after-image {&#13;
+    margin-top: 0;&#13;
+    display: flex;&#13;
+    flex-direction: column;&#13;
+    justify-content: center;&#13;
+    margin-left: 0 !important;&#13;
+  }&#13;
+&#13;
+  .after-image .card-title{&#13;
+    font-size: 1.5rem !important;&#13;
+  }&#13;
+&#13;
+  .after-image p, .after-image .d-grid{&#13;
+    margin-top: 0 !important;&#13;
+  }&#13;
+  .after-image .card-text {&#13;
+    font-size: 10px !important;&#13;
+  }&#13;
+  .card-custom .btn {&#13;
+    font-size: 10px !important;&#13;
+  }&#13;
+  /* movie rentals */&#13;
+  .movie-rental .card-title {&#13;
+    font-size: 1rem !important;&#13;
+  }&#13;
+  .movie-rental .rental-image {&#13;
+    top: 0;&#13;
+    left: 0;&#13;
+    margin-top: 0;&#13;
+  }&#13;
+  .movie-rental .card-text {&#13;
+    font-size: 10px !important;&#13;
+  }&#13;
+  .movie-rental .btn {&#13;
+    font-size: 10px;&#13;
+  }&#13;
+  .movie-rental .d-grid {&#13;
+    margin-top: 0 !important;&#13;
+  }&#13;
+  /* fav-channels */&#13;
+  .fav-channels h3 {&#13;
+    font-size: 1rem !important;&#13;
+  }&#13;
+  .fav-channels h3 br,&#13;
+  .fav-channels p br {&#13;
+    display: none;&#13;
+  }&#13;
+  .fav-channels p {&#13;
+    font-size: 10px !important;&#13;
+    margin-top: 0 !important;&#13;
+  }&#13;
+  .channel img {&#13;
+    width: 100%;&#13;
+  }&#13;
+  /* remote section */&#13;
+  .remote-section {&#13;
+    margin-top: 1rem;&#13;
+  }&#13;
+  .remote-section .row {&#13;
+    flex-direction: column-reverse;&#13;
+  }&#13;
+  .remote-section h3 {&#13;
+    font-size: 1rem !important;&#13;
+    text-align: center;&#13;
+  }&#13;
+  .remote-section p {&#13;
+    font-size: 10px !important;&#13;
+    text-align: center;&#13;
+  }&#13;
+  .remote-img {&#13;
+    margin-top: 2rem;&#13;
+  }&#13;
+}&#13;
+/* media queries for tablet */&#13;
+@media only screen and (min-width: 768px) and (max-width:1024px){&#13;
+  /* content css */&#13;
+  .card-custom img{&#13;
+    min-height: 100%;&#13;
+    width: 100%;&#13;
+  }&#13;
+  .after-image{&#13;
+    margin-top: 0;&#13;
+    display: flex;&#13;
+    flex-direction: column;&#13;
+    justify-content: center;&#13;
+  }&#13;
+  .after-image h3,.rental-image h3, .fav-channels h3, .remote-section h3{&#13;
+    font-size: 22px !important;&#13;
+  }&#13;
+  .after-image p,.rental-image p, .fav-channels p, .remote-section p{&#13;
+    font-size: 1rem !important;&#13;
+  }&#13;
+  .after-image .card-title {&#13;
+    font-size: 3rem !important;&#13;
+  }&#13;
+  .after-image p{&#13;
+    margin-top: 0;&#13;
+  }&#13;
+  .after-image .d-grid{&#13;
+    margin-top: 0 !important;&#13;
+  }&#13;
+  /* rental css */&#13;
+  .rental-image{&#13;
+    margin-top: 0;&#13;
+  }&#13;
+  .movie-rental .image-container{&#13;
+    max-height: 100% !important;&#13;
+    max-width: 100%;&#13;
+  }&#13;
+  .rental-image .d-grid{&#13;
+    margin-top: 0 !important;&#13;
+  }&#13;
+  /* fav-channels */&#13;
+  .channel img {&#13;
+    width: 100%;&#13;
+    height: 100%;&#13;
+  }&#13;
+  .arrow-img img {&#13;
+    left: 86%;&#13;
+    width: 54px;&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>mainprimeportal</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>MainPrimePortal</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-12 17:37:57</sys_created_on>
+        <sys_id>d697fc1f97f402505e9fb680f053af76</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MainPrimePortal</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sp_widget_d697fc1f97f402505e9fb680f053af76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-12 17:42:11</sys_updated_on>
+        <template><![CDATA[<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Prime video</title>
+  <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9QhnjQ_AXjYKRO9NHHYz6auTGZXEVOiijbQ&usqp=CAU">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- Navbar  -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar-custom">
+    <div class="container ">
+      <a href="/" class="navbar-brand text-white fw-bold ms-2 prime-video">prime video</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/">Action</a></li>
+              <li><a class="dropdown-item" href="/">Anime</a></li>
+              <li><a class="dropdown-item" href="/">Comedy</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary" href="/" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Store
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/">All</a></li>
+              <li><a class="dropdown-item" href="/"> Rent</a></li>
+              <li><a class="dropdown-item" href="/"> Channels</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="/">Live Tv</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary" href="/" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/">Action</a></li>
+              <li><a class="dropdown-item" href="/">Anime</a></li>
+              <li><a class="dropdown-item" href="/">Comedy</a></li>
+              <li><a class="dropdown-item" href="/">Horror</a></li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <form class="d-flex text-secondary" role="search">
+          <span class="me-4 mt-2 search-icon"><i class="fa fa-search fs-4" aria-hidden="true"></i></span>
+          <span class="me-4 mt-2 fs-5">Try for free</span>
+          <button type="button" class="btn btn-dark me-3">EN<i class="fa fa-angle-down ms-1"
+              aria-hidden="true"></i></i></button>
+          <span class="mt-2 user-icon"><i class="fa fa-user-o fs-5" aria-hidden="true"></i></span>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- content starts here -->
+  <div class="card text-bg-dark border border-0 card-custom ">
+    <!-- after image== https://fangirlish.com/wp-content/uploads/2020/07/HessaAWCHeader.jpg-->
+    
+    <img src="https://images7.alphacoders.com/131/1314905.jpeg" class="card-img" alt="after">
+    <div class="card-img-overlay ms-5 after-image">
+      <h3 class="card-title fs-1 display-3">Welcome to Prime video</h3>
+      <p class="card-text fs-5 display-5 mt-3">Watch the latest movies, TV shows, and award- <br> winning Amazon
+        Originals</p>
+      <div class="d-grid gap-2 col-md-3 col-6 mt-3">
+        <button class="btn btn-primary p-2" type="button">Sign in to join Prime</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- movie rentals section -->
+  <div class="card text-bg-dark movie-rental">
+    <div class="image-container">
+      <img
+        src="https://e0.pxfuel.com/wallpapers/724/281/desktop-wallpaper-get-amazon-prime-video-for-windows-amazon.jpg"
+        class="card-img" alt="after">
+    </div>
+    <div class="card-img-overlay ms-5 rental-image">
+      <h3 class="card-title fs-1 display-3">Movie rentals on Prime <br> Video</h3>
+      <p class="card-text fs-4 display-5 mt-3">Early Access to new movies, before digital subscription</p>
+      <div class="d-grid gap-2 col-lg-5 col-6 mt-5">
+        <button class="btn btn-primary p-2" type="button">Rent Now</button>
+      </div>
+    </div>
+  </div>
+  <!-- favorite channel section -->
+  <div class="container fav-channels  mt-4">
+    <div class="row">
+      <div class="col-md-6 ">
+        <h3 class="fs-1 display-4">Your favorite channels all <br> in one place</h3>
+        <p class="fs-4 display-1 mt-4">With Prime Video Channels, find shows and <br> movies from your favorite channels
+          all in one <br> place. Enjoy with an add-on subscription to <br> Channels of your choice</p>
+      </div>
+      <div class="col-md-6">
+        <div class="row mb-1">
+          <div class="col-md-4 col-4 channel"><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg"
+              alt=""></div>
+          <div class="col-md-4 col-4 channel"><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg" alt="">
+          </div>
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg" alt="">
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg" alt="">
+          </div>
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg" alt="">
+          </div>
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Vrott.png" alt=""></div>
+        </div>
+        <div class="row mb-1">
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Amc.png" alt=""></div>
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Docubay-426X2947_V1.jpg" alt="">
+          </div>
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Mubi-426X2946_V1.jpg" alt="">
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/iWonder.png" alt="">
+          </div>
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Stingray.png" alt="">
+          </div>
+          <div class="col-md-4 col-4 channel "><img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/426x294_CuriosityStream.png"
+              alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- remote section -->
+  <div class="container-fluid remote-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://i.insider.com/634085e7c40513001976b393?width=750&format=jpeg&auto=webp" class="remote-img"
+            alt="">
+        </div>
+        <div class="col-md-6">
+          <h3 class="fs-1 display-4">Even better with Fire TV Stick</h3>
+          <p class="fs-4 display-1 mt-4">The biggest movies and TV shows are always better on a big screen. Simply plug
+            in your Amazon Fire TV Stick and stream on any HDTV. Press the voice button on the remote and say the name
+            of the title you want to watch to find it in seconds.</p>
+          <div class="d-grid gap-2 col-md-5 col-12 mt-4">
+            <button class="btn btn-primary p-2" type="button">Get started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="container-fluid bg-black mt-5">
+    <div class="d-flex justify-content-center">
+      <div class=" p-4">
+        <img src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/web_footer_logo._CB462908456_.png" width="150"
+          alt="">
+      </div>
+      <div class="arrow-img"  onclick="scrollUp()">
+        <img src="https://cdn-icons-png.flaticon.com/512/55/55008.png"  alt="">
+      </div>
+  </footer>
+  <!-- Bootstrap js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sp_widget_d697fc1f97f402505e9fb680f053af76</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;* {&amp;#13;
+  margin: 0;&amp;#13;
+  padding: 0;&amp;#13;
+  box-sizing: border-box;&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* navbar css */&amp;#13;
+&amp;#13;
+#navbar-custom {&amp;#13;
+  background-color: black;&amp;#13;
+  color: white;&amp;#13;
+}&amp;#13;
+#navbar-custom ul {&amp;#13;
+  font-weight: 500;&amp;#13;
+}&amp;#13;
+.fa-angle-down {&amp;#13;
+  display: inline;&amp;#13;
+}&amp;#13;
+.user-icon {&amp;#13;
+  padding: 5px;&amp;#13;
+  border-radius: 45%;&amp;#13;
+}&amp;#13;
+.user-icon:hover {&amp;#13;
+  cursor: pointer;&amp;#13;
+}&amp;#13;
+.search-icon:hover {&amp;#13;
+  cursor: pointer;&amp;#13;
+}&amp;#13;
+/* content css  */&amp;#13;
+.card-custom {&amp;#13;
+  border-radius: 0;&amp;#13;
+}&amp;#13;
+.card-custom img {&amp;#13;
+  opacity: 0.7;&amp;#13;
+  min-height: 100vh;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.card-custom button {&amp;#13;
+  border-radius: 0;&amp;#13;
+  font-weight: 600;&amp;#13;
+}&amp;#13;
+.after-image {&amp;#13;
+  margin-top: 96px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.after-image .card-title{&amp;#13;
+  font-size: 5rem !important;&amp;#13;
+  text-align: center;&amp;#13;
+  font-weight: 800;&amp;#13;
+}&amp;#13;
+.after-image p{&amp;#13;
+  text-align: center;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.after-image .d-grid{&amp;#13;
+  margin: 0 auto;&amp;#13;
+}&amp;#13;
+&amp;#13;
+&amp;#13;
+&amp;#13;
+/* movie rental css */&amp;#13;
+.movie-rental {&amp;#13;
+  position: relative;&amp;#13;
+}&amp;#13;
+.rental-image {&amp;#13;
+  position: absolute;&amp;#13;
+  top: 5%;&amp;#13;
+  left: 45%;&amp;#13;
+  margin-top: 96px;&amp;#13;
+  float: right;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.movie-rental .card-img {&amp;#13;
+  max-height: 100vh;&amp;#13;
+  border-radius: 0;&amp;#13;
+}&amp;#13;
+.movie-rental button {&amp;#13;
+  border-radius: 0;&amp;#13;
+  font-weight: 600;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.movie-rental h3,&amp;#13;
+.movie-rental p {&amp;#13;
+  font-weight: 360;&amp;#13;
+}&amp;#13;
+/* favorite channels css */&amp;#13;
+.fav-channels h3,&amp;#13;
+.fav-channels p {&amp;#13;
+  font-weight: 360;&amp;#13;
+}&amp;#13;
+.channel img {&amp;#13;
+  width: 183px;&amp;#13;
+}&amp;#13;
+.channel img:hover {&amp;#13;
+  cursor: pointer;&amp;#13;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,&amp;#13;
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;&amp;#13;
+  transform: scale(1.04);&amp;#13;
+  transition: 0.5s;&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* remote section css */&amp;#13;
+.remote-section {&amp;#13;
+  margin-top: 80px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.remote-img {&amp;#13;
+  width: 100%;&amp;#13;
+  mix-blend-mode: multiply;&amp;#13;
+  transform: rotate(340deg);&amp;#13;
+}&amp;#13;
+&amp;#13;
+.remote-section h3,&amp;#13;
+.remote-section p {&amp;#13;
+  font-weight: 360;&amp;#13;
+}&amp;#13;
+.remote-section button {&amp;#13;
+  border-radius: 0;&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* footer */&amp;#13;
+footer {&amp;#13;
+  position: relative;&amp;#13;
+}&amp;#13;
+.arrow-img img {&amp;#13;
+  position: absolute;&amp;#13;
+  top: -80px;&amp;#13;
+  left: 90%;&amp;#13;
+  width: 60px;&amp;#13;
+  mix-blend-mode: multiply;&amp;#13;
+  color: white;&amp;#13;
+}&amp;#13;
+.arrow-img img:hover {&amp;#13;
+  cursor: pointer;&amp;#13;
+  transform: scale(1.04);&amp;#13;
+  transition: 0.5s;&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* media queries for mobile*/&amp;#13;
+@media only screen and (max-width: 767px) {&amp;#13;
+  body {&amp;#13;
+    overflow-x: hidden;&amp;#13;
+  }&amp;#13;
+  /* navbar css */&amp;#13;
+  .navbar-toggler-icon {&amp;#13;
+    color: white !important;&amp;#13;
+  }&amp;#13;
+  #navbar-custom .prime-video {&amp;#13;
+    position: relative;&amp;#13;
+    left: 10%;&amp;#13;
+  }&amp;#13;
+  .arrow-img img {&amp;#13;
+    left: 78%;&amp;#13;
+    width: 52px;&amp;#13;
+  }&amp;#13;
+  /* content css */&amp;#13;
+  .card-custom img {&amp;#13;
+    opacity: 0.7;&amp;#13;
+    min-height: 22vh;&amp;#13;
+  }&amp;#13;
+&amp;#13;
+  .after-image {&amp;#13;
+    margin-top: 0;&amp;#13;
+    display: flex;&amp;#13;
+    flex-direction: column;&amp;#13;
+    justify-content: center;&amp;#13;
+    margin-left: 0 !important;&amp;#13;
+  }&amp;#13;
+&amp;#13;
+  .after-image .card-title{&amp;#13;
+    font-size: 1.5rem !important;&amp;#13;
+  }&amp;#13;
+&amp;#13;
+  .after-image p, .after-image .d-grid{&amp;#13;
+    margin-top: 0 !important;&amp;#13;
+  }&amp;#13;
+  .after-image .card-text {&amp;#13;
+    font-size: 10px !important;&amp;#13;
+  }&amp;#13;
+  .card-custom .btn {&amp;#13;
+    font-size: 10px !important;&amp;#13;
+  }&amp;#13;
+  /* movie rentals */&amp;#13;
+  .movie-rental .card-title {&amp;#13;
+    font-size: 1rem !important;&amp;#13;
+  }&amp;#13;
+  .movie-rental .rental-image {&amp;#13;
+    top: 0;&amp;#13;
+    left: 0;&amp;#13;
+    margin-top: 0;&amp;#13;
+  }&amp;#13;
+  .movie-rental .card-text {&amp;#13;
+    font-size: 10px !important;&amp;#13;
+  }&amp;#13;
+  .movie-rental .btn {&amp;#13;
+    font-size: 10px;&amp;#13;
+  }&amp;#13;
+  .movie-rental .d-grid {&amp;#13;
+    margin-top: 0 !important;&amp;#13;
+  }&amp;#13;
+  /* fav-channels */&amp;#13;
+  .fav-channels h3 {&amp;#13;
+    font-size: 1rem !important;&amp;#13;
+  }&amp;#13;
+  .fav-channels h3 br,&amp;#13;
+  .fav-channels p br {&amp;#13;
+    display: none;&amp;#13;
+  }&amp;#13;
+  .fav-channels p {&amp;#13;
+    font-size: 10px !important;&amp;#13;
+    margin-top: 0 !important;&amp;#13;
+  }&amp;#13;
+  .channel img {&amp;#13;
+    width: 100%;&amp;#13;
+  }&amp;#13;
+  /* remote section */&amp;#13;
+  .remote-section {&amp;#13;
+    margin-top: 1rem;&amp;#13;
+  }&amp;#13;
+  .remote-section .row {&amp;#13;
+    flex-direction: column-reverse;&amp;#13;
+  }&amp;#13;
+  .remote-section h3 {&amp;#13;
+    font-size: 1rem !important;&amp;#13;
+    text-align: center;&amp;#13;
+  }&amp;#13;
+  .remote-section p {&amp;#13;
+    font-size: 10px !important;&amp;#13;
+    text-align: center;&amp;#13;
+  }&amp;#13;
+  .remote-img {&amp;#13;
+    margin-top: 2rem;&amp;#13;
+  }&amp;#13;
+}&amp;#13;
+/* media queries for tablet */&amp;#13;
+@media only screen and (min-width: 768px) and (max-width:1024px){&amp;#13;
+  /* content css */&amp;#13;
+  .card-custom img{&amp;#13;
+    min-height: 100%;&amp;#13;
+    width: 100%;&amp;#13;
+  }&amp;#13;
+  .after-image{&amp;#13;
+    margin-top: 0;&amp;#13;
+    display: flex;&amp;#13;
+    flex-direction: column;&amp;#13;
+    justify-content: center;&amp;#13;
+  }&amp;#13;
+  .after-image h3,.rental-image h3, .fav-channels h3, .remote-section h3{&amp;#13;
+    font-size: 22px !important;&amp;#13;
+  }&amp;#13;
+  .after-image p,.rental-image p, .fav-channels p, .remote-section p{&amp;#13;
+    font-size: 1rem !important;&amp;#13;
+  }&amp;#13;
+  .after-image .card-title {&amp;#13;
+    font-size: 3rem !important;&amp;#13;
+  }&amp;#13;
+  .after-image p{&amp;#13;
+    margin-top: 0;&amp;#13;
+  }&amp;#13;
+  .after-image .d-grid{&amp;#13;
+    margin-top: 0 !important;&amp;#13;
+  }&amp;#13;
+  /* rental css */&amp;#13;
+  .rental-image{&amp;#13;
+    margin-top: 0;&amp;#13;
+  }&amp;#13;
+  .movie-rental .image-container{&amp;#13;
+    max-height: 100% !important;&amp;#13;
+    max-width: 100%;&amp;#13;
+  }&amp;#13;
+  .rental-image .d-grid{&amp;#13;
+    margin-top: 0 !important;&amp;#13;
+  }&amp;#13;
+  /* fav-channels */&amp;#13;
+  .channel img {&amp;#13;
+    width: 100%;&amp;#13;
+    height: 100%;&amp;#13;
+  }&amp;#13;
+  .arrow-img img {&amp;#13;
+    left: 86%;&amp;#13;
+    width: 54px;&amp;#13;
+  }&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;mainprimeportal&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;MainPrimePortal&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-12 17:37:57&lt;/sys_created_on&gt;&lt;sys_id&gt;d697fc1f97f402505e9fb680f053af76&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;MainPrimePortal&lt;/sys_name&gt;&lt;sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0"&gt;c1eb252c4704021008334d05516d4344&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Case Banco Brasil Tecnologia"&gt;c1eb252c4704021008334d05516d4344&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_d697fc1f97f402505e9fb680f053af76&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-12 17:42:11&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Amazon Prime video&lt;/title&gt;
+  &lt;link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9QhnjQ_AXjYKRO9NHHYz6auTGZXEVOiijbQ&amp;usqp=CAU"&gt;
+  &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"&gt;
+  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
+  &lt;link rel="stylesheet" href="./style.css"&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;!-- Navbar  --&gt;
+  &lt;nav class="navbar navbar-expand-lg fixed-top" id="navbar-custom"&gt;
+    &lt;div class="container "&gt;
+      &lt;a href="/" class="navbar-brand text-white fw-bold ms-2 prime-video"&gt;prime video&lt;/a&gt;
+      &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"&gt;
+        &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;div class="collapse navbar-collapse ms-5" id="navbarSupportedContent"&gt;
+        &lt;ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5"&gt;
+          &lt;li class="nav-item dropdown"&gt;
+            &lt;a class="nav-link dropdown-toggle text-secondary" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"&gt;
+              Home
+            &lt;/a&gt;
+            &lt;ul class="dropdown-menu"&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt;Action&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt;Anime&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt;Comedy&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li class="nav-item dropdown"&gt;
+            &lt;a class="nav-link dropdown-toggle text-secondary" href="/" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"&gt;
+              Store
+            &lt;/a&gt;
+            &lt;ul class="dropdown-menu"&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt;All&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt; Rent&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt; Channels&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link text-secondary" href="/"&gt;Live Tv&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="nav-item dropdown"&gt;
+            &lt;a class="nav-link dropdown-toggle text-secondary" href="/" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"&gt;
+              Categories
+            &lt;/a&gt;
+            &lt;ul class="dropdown-menu"&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt;Action&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt;Anime&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt;Comedy&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="dropdown-item" href="/"&gt;Horror&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+
+        &lt;/ul&gt;
+
+        &lt;form class="d-flex text-secondary" role="search"&gt;
+          &lt;span class="me-4 mt-2 search-icon"&gt;&lt;i class="fa fa-search fs-4" aria-hidden="true"&gt;&lt;/i&gt;&lt;/span&gt;
+          &lt;span class="me-4 mt-2 fs-5"&gt;Try for free&lt;/span&gt;
+          &lt;button type="button" class="btn btn-dark me-3"&gt;EN&lt;i class="fa fa-angle-down ms-1"
+              aria-hidden="true"&gt;&lt;/i&gt;&lt;/i&gt;&lt;/button&gt;
+          &lt;span class="mt-2 user-icon"&gt;&lt;i class="fa fa-user-o fs-5" aria-hidden="true"&gt;&lt;/i&gt;&lt;/span&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+
+  &lt;!-- content starts here --&gt;
+  &lt;div class="card text-bg-dark border border-0 card-custom "&gt;
+    &lt;!-- after image== https://fangirlish.com/wp-content/uploads/2020/07/HessaAWCHeader.jpg--&gt;
+    
+    &lt;img src="https://images7.alphacoders.com/131/1314905.jpeg" class="card-img" alt="after"&gt;
+    &lt;div class="card-img-overlay ms-5 after-image"&gt;
+      &lt;h3 class="card-title fs-1 display-3"&gt;Welcome to Prime video&lt;/h3&gt;
+      &lt;p class="card-text fs-5 display-5 mt-3"&gt;Watch the latest movies, TV shows, and award- &lt;br&gt; winning Amazon
+        Originals&lt;/p&gt;
+      &lt;div class="d-grid gap-2 col-md-3 col-6 mt-3"&gt;
+        &lt;button class="btn btn-primary p-2" type="button"&gt;Sign in to join Prime&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- movie rentals section --&gt;
+  &lt;div class="card text-bg-dark movie-rental"&gt;
+    &lt;div class="image-container"&gt;
+      &lt;img
+        src="https://e0.pxfuel.com/wallpapers/724/281/desktop-wallpaper-get-amazon-prime-video-for-windows-amazon.jpg"
+        class="card-img" alt="after"&gt;
+    &lt;/div&gt;
+    &lt;div class="card-img-overlay ms-5 rental-image"&gt;
+      &lt;h3 class="card-title fs-1 display-3"&gt;Movie rentals on Prime &lt;br&gt; Video&lt;/h3&gt;
+      &lt;p class="card-text fs-4 display-5 mt-3"&gt;Early Access to new movies, before digital subscription&lt;/p&gt;
+      &lt;div class="d-grid gap-2 col-lg-5 col-6 mt-5"&gt;
+        &lt;button class="btn btn-primary p-2" type="button"&gt;Rent Now&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- favorite channel section --&gt;
+  &lt;div class="container fav-channels  mt-4"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-md-6 "&gt;
+        &lt;h3 class="fs-1 display-4"&gt;Your favorite channels all &lt;br&gt; in one place&lt;/h3&gt;
+        &lt;p class="fs-4 display-1 mt-4"&gt;With Prime Video Channels, find shows and &lt;br&gt; movies from your favorite channels
+          all in one &lt;br&gt; place. Enjoy with an add-on subscription to &lt;br&gt; Channels of your choice&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="col-md-6"&gt;
+        &lt;div class="row mb-1"&gt;
+          &lt;div class="col-md-4 col-4 channel"&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg"
+              alt=""&gt;&lt;/div&gt;
+          &lt;div class="col-md-4 col-4 channel"&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg" alt=""&gt;
+          &lt;/div&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg" alt=""&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row mb-1"&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg" alt=""&gt;
+          &lt;/div&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg" alt=""&gt;
+          &lt;/div&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Vrott.png" alt=""&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row mb-1"&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Amc.png" alt=""&gt;&lt;/div&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Docubay-426X2947_V1.jpg" alt=""&gt;
+          &lt;/div&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Mubi-426X2946_V1.jpg" alt=""&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row mb-1"&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/iWonder.png" alt=""&gt;
+          &lt;/div&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Stingray.png" alt=""&gt;
+          &lt;/div&gt;
+          &lt;div class="col-md-4 col-4 channel "&gt;&lt;img
+              src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/426x294_CuriosityStream.png"
+              alt=""&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- remote section --&gt;
+  &lt;div class="container-fluid remote-section"&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-6"&gt;
+          &lt;img src="https://i.insider.com/634085e7c40513001976b393?width=750&amp;format=jpeg&amp;auto=webp" class="remote-img"
+            alt=""&gt;
+        &lt;/div&gt;
+        &lt;div class="col-md-6"&gt;
+          &lt;h3 class="fs-1 display-4"&gt;Even better with Fire TV Stick&lt;/h3&gt;
+          &lt;p class="fs-4 display-1 mt-4"&gt;The biggest movies and TV shows are always better on a big screen. Simply plug
+            in your Amazon Fire TV Stick and stream on any HDTV. Press the voice button on the remote and say the name
+            of the title you want to watch to find it in seconds.&lt;/p&gt;
+          &lt;div class="d-grid gap-2 col-md-5 col-12 mt-4"&gt;
+            &lt;button class="btn btn-primary p-2" type="button"&gt;Get started&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- footer --&gt;
+  &lt;footer class="container-fluid bg-black mt-5"&gt;
+    &lt;div class="d-flex justify-content-center"&gt;
+      &lt;div class=" p-4"&gt;
+        &lt;img src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/web_footer_logo._CB462908456_.png" width="150"
+          alt=""&gt;
+      &lt;/div&gt;
+      &lt;div class="arrow-img"  onclick="scrollUp()"&gt;
+        &lt;img src="https://cdn-icons-png.flaticon.com/512/55/55008.png"  alt=""&gt;
+      &lt;/div&gt;
+  &lt;/footer&gt;
+  &lt;!-- Bootstrap js cdn --&gt;
+  &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"&gt;&lt;/script&gt;
+  &lt;script src="./index.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1689352708</payload_hash>
+        <record_name>MainPrimePortal</record_name>
+        <reverted_from/>
+        <source>fc3fe3fd973c4a105e9fb680f053af95</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-12 17:42:11</sys_created_on>
+        <sys_id>9c98fc5f97f402505e9fb680f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e33c1ee960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-12 17:42:11</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>1498fc5fd2f402508e1543c8814888a1</update_guid>
+        <update_guid_history>1498fc5fd2f402508e1543c8814888a1:1689352708,db88f4df0ff40250ef7ca680359783db:1283060809,a8383c9feef40250b87b57f8c2e95c0e:177972802,da97fc1fb8f40250029f3bddd560a478:-1088505141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MainPrimePortal">727ec8ac4751021024403698c26d43da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 22:06:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>579ad1dab0a54d8089ec15260129c640</sys_id>
+        <sys_metadata>d697fc1f97f402505e9fb680f053af76</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MainPrimePortal</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_scope_delete display_value="">01e6c8d2601048c880237a851a04b864</sys_scope_delete>
+        <sys_update_name>sp_widget_d697fc1f97f402505e9fb680f053af76</sys_update_name>
+        <sys_update_version display_value="sp_widget_d697fc1f97f402505e9fb680f053af76">9c98fc5f97f402505e9fb680f053afa1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 22:06:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

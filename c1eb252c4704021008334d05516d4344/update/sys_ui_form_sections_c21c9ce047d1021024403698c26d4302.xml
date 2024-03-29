@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c21c9ce047d1021024403698c26d4302" sys_domain="global" table="x_1174267_case_b_0_gestores" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a1c102447d1021024403698c26d438f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1174267_case_b_0_gestores" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">c21c9ce047d1021024403698c26d4302</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de1c102447d1021024403698c26d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1174267_case_b_0_gestores" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">c21c9ce047d1021024403698c26d4302</sys_ui_form>
+            <sys_ui_section caption="Informações dos candidatos" display_value="Informações dos candidatos" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">1a1c102447d1021024403698c26d43bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1174267_case_b_0_gestores</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c21c9ce047d1021024403698c26d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1174267_case_b_0_gestores</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c21c9ce047d1021024403698c26d4302</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Case Banco Brasil Tecnologia 0" name="workspace-case-banco-brasil-tecnologia-0">201c5ce06ed1021003495de536ceeaca</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

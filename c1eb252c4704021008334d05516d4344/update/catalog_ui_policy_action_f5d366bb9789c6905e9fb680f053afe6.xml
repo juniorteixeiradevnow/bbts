@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Formulário Candidatos">9b643d244744021008334d05516d439a</catalog_item>
+        <catalog_variable>IO:bde839684744021008334d05516d4319</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 01:04:05</sys_created_on>
+        <sys_id>f5d366bb9789c6905e9fb680f053afe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>estado</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f5d366bb9789c6905e9fb680f053afe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 01:04:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Esconde os campos estado e cidade se estiver com o cep vazio">cb532a7b9789c6905e9fb680f053af6a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>estado</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

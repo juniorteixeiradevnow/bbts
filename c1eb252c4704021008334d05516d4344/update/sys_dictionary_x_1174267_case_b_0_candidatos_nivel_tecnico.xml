@@ -8,7 +8,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Nível Técnico</column_label>
+        <column_label>NIvel Ténico</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-07 03:00:29</sys_created_on>
-        <sys_name>Nível Técnico</sys_name>
+        <sys_name>NIvel Ténico</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_dictionary_x_1174267_case_b_0_candidatos_nivel_tecnico</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-07 03:00:29</sys_updated_on>
+        <sys_updated_on>2024-03-29 00:02:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d21c102447d1021024403698c26d438d" sys_domain="global" table="x_1174267_case_b_0_gestores" version="3" view="workspace-case-banco-brasil-tecnologia-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_id>121c102447d1021024403698c26d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>atribuido_a</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_id>121c102447d1021024403698c26d4394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addtional_questions</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_id>1a1c102447d1021024403698c26d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_id>1a1c102447d1021024403698c26d4394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grupo_atribuido</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_id>121c102447d1021024403698c26d4393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_id>121c102447d1021024403698c26d4395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_id>921c102447d1021024403698c26d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>descricao_resumida</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:53</sys_created_on>
+            <sys_id>1a1c102447d1021024403698c26d4393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_gestores" sys_domain="global" view="201c5ce06ed1021003495de536ceeaca">d21c102447d1021024403698c26d438d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1174267_case_b_0_gestores</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-28 23:05:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d21c102447d1021024403698c26d438d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1174267_case_b_0_gestores</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+            <sys_update_name>sys_ui_section_d21c102447d1021024403698c26d438d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-28 23:05:52</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Case Banco Brasil Tecnologia 0" name="workspace-case-banco-brasil-tecnologia-0">201c5ce06ed1021003495de536ceeaca</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

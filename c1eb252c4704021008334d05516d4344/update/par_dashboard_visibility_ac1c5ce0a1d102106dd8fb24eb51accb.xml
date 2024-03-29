@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Case Banco Brasil Tecnologia">6c1c5ce0c9d10210efaf2d2fbbc604cc</dashboard>
+        <experience display_value="Case Banco Brasil Tecnologia">e01c5ce02dd1021003bdc83c11d087d3</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 23:05:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ac1c5ce0a1d102106dd8fb24eb51accb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>par_dashboard_visibility_ac1c5ce0a1d102106dd8fb24eb51accb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 23:05:46</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

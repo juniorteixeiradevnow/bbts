@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2097adfd4780021008334d05516d43e9" label="Gestores" max_length="40" name="x_1174267_case_b_0_gestores" type="collection">
-        <element choice="1" label="Addtional Questions" max_length="40" name="addtional_questions" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="true" sequence="0" value="true"/>
-                <element inactive_on_update="false" label="false" sequence="1" value="false"/>
-            </choice>
-        </element>
+    <element db_object_id="2097adfd4780021008334d05516d43e9" label="Atendente &amp;&amp; Time Técnico" max_length="40" name="x_1174267_case_b_0_gestores" text_index="true" type="collection">
         <element label="Atribuido a" max_length="32" name="atribuido_a" reference="sys_user" type="reference"/>
         <element label="Candidato" max_length="40" name="candidato" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Cidade" max_length="40" name="cidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data da Entrevista" max_length="40" name="data_da_entrevista" type="glide_date_time"/>
         <element label="Descrição" max_length="1000" name="descricao" type="string"/>
         <element label="Descrição Resumida" max_length="150" name="descricao_resumida" type="string"/>
         <element label="Email" max_length="100" name="email" type="string"/>
@@ -16,15 +11,15 @@
         <element label="Grupo Atribuido" max_length="32" name="grupo_atribuido" reference="sys_user_group" type="reference"/>
         <element attributes="encode_utf8=false" label="ID Do Candidato" max_length="32" name="id_candidato" reference="x_1174267_case_b_0_candidatos" reference_qual="numberANYTHING^EQ" reference_qual_condition="numberANYTHING^EQ" type="reference"/>
         <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#10;&#9;gs.info(&quot;TESTANDO:&quot; + current.id_candidato);&#10;&#9;var id = 'CAND0001008';&#10;&#9;var gr = new GlideRecord('x_1174267_case_b_0_candidatos');&#10;&#9;&#10;&#9;gr.addQuery('number', id);&#10;&#9;gr.query();&#10;&#10;&#9;if(gr.next()){&#10;&#9;&#9;gs.info('NUMERO DO CNADIDATO' + gr.getDisplayValue('number'));&#10;&#9;&#9;gs.info('NUMERO DO CNADIDATO' + gr.getDisplayValue('nome'));&#10;&#9;&#9;gs.info('valor do namereferencia' + current.namereferencia)&#10;&#9;&#9;current.namereferencia = gr.getDisplayValue('number');&#10;&#9;}&#10;&#10;&#9;// Add your code here&#10;&#9;return '';  // return the calculated value&#10;&#10;})(current);" dynamic_default_value="ce2640a947f0021008334d05516d433f" label="Nome referencia" max_length="32" name="namereferencia" type="string" use_dynamic_default="true" virtual="true"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Nivel Técnico" max_length="40" name="nivel_tecnico" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Júnior" sequence="0" value="junior"/>
-                <element inactive_on_update="false" label="Pleno" sequence="1" value="pleno"/>
-                <element inactive_on_update="false" label="Sênior" sequence="2" value="senior"/>
-            </choice>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nivel Técnico" max_length="40" name="nivel_tecnico" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Nome" max_length="40" name="nome" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Perguntas Respondidas" max_length="40" name="perguntas_respondidas" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="nao"/>
+            </choice>
+        </element>
         <element choice="1" display="true" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Analisando candidato" sequence="0" value="analisando_candidato"/>

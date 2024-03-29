@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="Candidatos Table">391cdce047d1021024403698c26d43c2</datasource>
+        <field>number</field>
+        <source>x_1174267_case_b_0_candidatos</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 23:05:51</sys_created_on>
+        <sys_id>b91cdce047d1021024403698c26d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_case_b_0_candidatos.number</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_b91cdce047d1021024403698c26d43d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 23:05:51</sys_updated_on>
+        <value>title</value>
+    </ais_datasource_field_attribute>
+</record_update>

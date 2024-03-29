@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="addtional_questions" label="Addtional Questions" language="en" table="x_1174267_case_b_0_gestores">
+    <sys_documentation element="perguntas_respondidas" label="Perguntas Respondidas" language="en" table="x_1174267_case_b_0_gestores">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>addtional_questions</element>
+            <element>perguntas_respondidas</element>
             <help/>
             <hint/>
-            <label>Addtional Questions</label>
+            <label>Perguntas Respondidas</label>
             <language>en</language>
             <name>x_1174267_case_b_0_gestores</name>
-            <plural/>
+            <plural>Perguntas Respondidas</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 23:27:55</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Addtional Questions</sys_name>
+            <sys_created_on>2024-03-29 00:34:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Perguntas Respondidas</sys_name>
             <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
             <sys_policy/>
             <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
-            <sys_update_name>sys_documentation_x_1174267_case_b_0_gestores_addtional_questions_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1174267_case_b_0_gestores_perguntas_respondidas_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 23:27:56</sys_updated_on>
+            <sys_updated_on>2024-03-29 00:34:48</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
