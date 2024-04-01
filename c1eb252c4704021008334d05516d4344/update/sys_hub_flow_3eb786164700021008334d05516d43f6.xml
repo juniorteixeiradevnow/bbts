@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>flow_bbbts</internal_name>
-        <label_cache>[{"name":"Created_1.current.status","label":"Trigger - Record Created➛Candidatos Record➛Status","reference":"x_1174267_case_b_0_gestores","reference_display":"Atendente \u0026\u0026 Time Técnico","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"status","usedInstances":{"911b566f-8225-45c3-8d38-90a146d8dc38":["condition"]}},{"name":"Created_1.current.perguntas_respondidas","label":"Trigger - Record Created➛Candidatos Record➛Perguntas respondidas","reference":"","reference_display":"Perguntas respondidas","type":"choice","base_type":"choice","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"perguntas_respondidas","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"rawLabel":"-- None --","selected":false,"reference":false,"value":""},{"image":"","used":false,"label":"Sim","missing":false,"rawLabel":"Sim","selected":false,"reference":false,"value":"sim","parameters":{"name":"x_1174267_case_b_0_candidatos"}},{"image":"","used":false,"label":"Não","missing":false,"rawLabel":"Não","selected":false,"reference":false,"value":"nao","parameters":{"name":"x_1174267_case_b_0_candidatos"}}],"usedInstances":{"9eb29b04-b01f-465a-9cef-4ef006c7fdf4":["condition"]}},{"name":"Created_1.current.chave_de_acesso","label":"Trigger - Record Created➛Candidatos Record➛Chave de Acesso","reference":"","reference_display":"Chave de Acesso","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"chave_de_acesso","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["undefined",null]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Candidatos Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"email","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["ah_to"],"9b2e618b-b9b7-43df-84e3-c12235bc2da4":["ah_to"]}},{"name":"Created_1.current.nome","label":"Trigger - Record Created➛Candidatos Record➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"nome","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["null"],"9b2e618b-b9b7-43df-84e3-c12235bc2da4":[null]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Candidatos Record","reference":"x_1174267_case_b_0_candidatos","reference_display":"Candidatos","type":"reference","base_type":"reference","usedInstances":{"52cdd680-aa18-4e28-8745-ec858646f2f8":["record"],"e73ec68b-004a-41c7-abd8-13491cd0681a":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Candidatos Record","reference":"x_1174267_case_b_0_candidatos","reference_display":"Candidatos","type":"reference","base_type":"reference","usedInstances":{"52cdd680-aa18-4e28-8745-ec858646f2f8":["record"],"e73ec68b-004a-41c7-abd8-13491cd0681a":["record"]},"attributes":{}},{"name":"Created_1.current.nome","label":"Trigger - Record Created➛Candidatos Record➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"nome","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["null"],"9b2e618b-b9b7-43df-84e3-c12235bc2da4":[null]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Candidatos Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"email","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["ah_to"],"9b2e618b-b9b7-43df-84e3-c12235bc2da4":["ah_to"]}},{"name":"Created_1.current.chave_de_acesso","label":"Trigger - Record Created➛Candidatos Record➛Chave de Acesso","reference":"","reference_display":"Chave de Acesso","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"chave_de_acesso","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["undefined",null]}},{"name":"Created_1.current.perguntas_respondidas","label":"Trigger - Record Created➛Candidatos Record➛Perguntas respondidas","reference":"","reference_display":"Perguntas respondidas","type":"choice","base_type":"choice","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"perguntas_respondidas","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"rawLabel":"-- None --","selected":false,"reference":false,"value":""},{"image":"","used":false,"label":"Sim","missing":false,"rawLabel":"Sim","selected":false,"reference":false,"value":"sim","parameters":{"name":"x_1174267_case_b_0_candidatos"}},{"image":"","used":false,"label":"Não","missing":false,"rawLabel":"Não","selected":false,"reference":false,"value":"nao","parameters":{"name":"x_1174267_case_b_0_candidatos"}}],"usedInstances":{"9eb29b04-b01f-465a-9cef-4ef006c7fdf4":["condition"]}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Candidatos Record➛Status","reference":"x_1174267_case_b_0_gestores","reference_display":"Atendente \u0026\u0026 Time Técnico","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"status","usedInstances":{"911b566f-8225-45c3-8d38-90a146d8dc38":["condition"]}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Flow BBBTS</name>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3eb786164700021008334d05516d43f6</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>Flow BBBTS</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_hub_flow_3eb786164700021008334d05516d43f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:22</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3eb786164700021008334d05516d43f6"/>
@@ -58,10 +58,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 23:49:52</sys_created_on>
         <sys_id>d2994ac54770021008334d05516d4337</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -298,10 +298,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 23:50:52</sys_created_on>
         <sys_id>2a23c825c395021029107405e4013169</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <ui_id>d9ab63a4-2b95-4a26-8804-f631d583a640</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2a23c825c395021029107405e4013169"/>
@@ -339,10 +339,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-01 00:33:21</sys_created_on>
         <sys_id>34ec8061c3d5021029107405e401314e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <ui_id>9b2e618b-b9b7-43df-84e3-c12235bc2da4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=34ec8061c3d5021029107405e401314e"/>
@@ -418,13 +418,13 @@
         <input_name>ah_body</input_name>
         <instance>34ec8061c3d5021029107405e401314e</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"ah_body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar acessKey \u003d fd_data.trigger.current.chave_de_acesso;\nvar nome \u003d fd_data.trigger.current.nome;\nvar htmlCode \u003d \u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eOlá, \u003cb\u003e\u0027 + nome + \u0027\u003c/b\u003e \u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003ePara dar seguimento na sua participação no processo seletivo, necessitamos que, você preencha o formulário com algumas perguntas adicionais\u0026nbsp;\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eque se encontra no link a seguir:\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003e\u0026nbsp;\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003e\u003ca href\u003d\"https://dev139883.service-now.com/sp?id\u003ddata_da_entrevista\u0026acesskey\u003d\u0027 + acessKey + \u0027\" style\u003d\"background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-align: center; text-decoration: none; font-size: 16px; margin: 10px; cursor: pointer; display: inline-block;\"\u003eResponder perguntas adicionais\u003c/a\u003e\u003c/p\u003e\u0027;\n\nreturn htmlCode;"}}</script>
+        <script>{"ah_body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar acessKey \u003d fd_data.trigger.current.chave_de_acesso;\nvar nome \u003d fd_data.trigger.current.nome;\nvar htmlCode \u003d \u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eOlá, \u003cb\u003e\u0027 + nome + \u0027\u003c/b\u003e \u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eVocê passou para proxima fase do processo seletivo: \u003cb\u003eEntrevista Pessoal\u003c/b\u003e\u003c/p\u003e\u0027 + gs.getProperty(\u0027instance_name\u0027) +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eVocê deve confirmar a data clicando no link a seguir!\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003e\u0026nbsp;\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003e\u003ca href\u003d\"https://dev250840.service-now.com/sp?id\u003ddata_da_entrevista\u0026acesskey\u003d\u0027 + acessKey + \u0027\" style\u003d\"background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-align: center; text-decoration: none; font-size: 16px; margin: 10px; cursor: pointer; display: inline-block;\"\u003eConfirmar a data da entrevista!\u003c/a\u003e\u003c/p\u003e\u0027;\n\nreturn htmlCode;"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-01 00:33:21</sys_created_on>
         <sys_id>b0ec8061c3d5021029107405e4013150</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=34ec8061c3d5021029107405e401314e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -444,10 +444,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-08 21:41:38</sys_created_on>
         <sys_id>4d09854297348a105e9fb680f053afd5</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <ui_id>4c100073-c7e0-4938-b5ef-15b9a0fdc28b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4d09854297348a105e9fb680f053afd5"/>
@@ -528,13 +528,13 @@
         <input_name>ah_body</input_name>
         <instance>4d09854297348a105e9fb680f053afd5</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"ah_body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n\n*/\nvar acessKey \u003d fd_data.trigger.current.chave_de_acesso;\nvar nome \u003d fd_data.trigger.current.nome;\nvar htmlCode \u003d \u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eOlá, \u003cb\u003e\u0027 + nome + \u0027\u003c/b\u003e \u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003ePara dar seguimento na sua participação no processo seletivo, necessitamos que, você preencha o formulário com algumas perguntas adicionais\u0026nbsp;\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eque se encontra no link a seguir:\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003e\u0026nbsp;\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003e\u003ca href\u003d\"https://dev139883.service-now.com/sp?id\u003dformulario_perguntas_adicionais\u0026acesskey\u003d\u0027 + acessKey + \u0027\" style\u003d\"background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-align: center; text-decoration: none; font-size: 16px; margin: 10px; cursor: pointer; display: inline-block;\"\u003eResponder perguntas adicionais\u003c/a\u003e\u003c/p\u003e\u0027;\n\nreturn htmlCode;\n\n"}}</script>
+        <script>{"ah_body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n\n*/\nvar acessKey \u003d fd_data.trigger.current.chave_de_acesso;\nvar nome \u003d fd_data.trigger.current.nome;\nvar htmlCode \u003d \u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eOlá, \u003cb\u003e\u0027 + nome + \u0027\u003c/b\u003e \u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003ePara dar seguimento na sua participação no processo seletivo, necessitamos que, você preencha o formulário com algumas perguntas adicionais\u0026nbsp;\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003eque se encontra no link a seguir:\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003e\u0026nbsp;\u003c/p\u003e\u0027 +\n\u0027\u003cp data-tinymcerootblock\u003d\"\"\u003e\u003ca href\u003d\"https://dev250840.service-now.com/sp?id\u003dformulario_perguntas_adicionais\u0026acesskey\u003d\u0027 + acessKey + \u0027\" style\u003d\"background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-align: center; text-decoration: none; font-size: 16px; margin: 10px; cursor: pointer; display: inline-block;\"\u003eResponder perguntas adicionais\u003c/a\u003e\u003c/p\u003e\u0027;\n\nreturn htmlCode;\n\n"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-11 18:21:41</sys_created_on>
         <sys_id>1508377697bc8e105e9fb680f053afa3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-12 04:36:23</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4d09854297348a105e9fb680f053afd5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -554,10 +554,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 23:49:52</sys_created_on>
         <sys_id>52994ac54770021008334d05516d4340</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <ui_id>d7bd9ac1-d3b6-41d4-bbaf-41fbeea0dcf1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=52994ac54770021008334d05516d4340"/>
@@ -662,10 +662,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 23:50:52</sys_created_on>
         <sys_id>ee23c825c395021029107405e4013154</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <ui_id>e73ec68b-004a-41c7-abd8-13491cd0681a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee23c825c395021029107405e4013154"/>
@@ -762,10 +762,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 23:50:52</sys_created_on>
         <sys_id>2623c825c395021029107405e4013159</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <ui_id>9eb29b04-b01f-465a-9cef-4ef006c7fdf4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -810,10 +810,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 23:50:52</sys_created_on>
         <sys_id>2623c825c395021029107405e4013163</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:33:21</sys_updated_on>
+        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
         <ui_id>911b566f-8225-45c3-8d38-90a146d8dc38</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
