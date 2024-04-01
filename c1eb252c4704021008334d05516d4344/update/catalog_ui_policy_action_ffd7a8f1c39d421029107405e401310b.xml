@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Copy of Formulário Candidatos">d5d76871c39d421029107405e401310f</catalog_item>
+        <catalog_variable>IO:dad7e4f1c39d421029107405e401315c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 21:09:44</sys_created_on>
+        <sys_id>ffd7a8f1c39d421029107405e401310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>estado</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ffd7a8f1c39d421029107405e401310b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 21:09:44</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Esconde os campos estado e cidade se estiver com o cep vazio">3bd768f1c39d421029107405e40131d6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>estado</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=ffd7a8f1c39d421029107405e401310b"/>
+</record_update>

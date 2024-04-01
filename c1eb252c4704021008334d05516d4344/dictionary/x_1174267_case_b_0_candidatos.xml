@@ -60,7 +60,7 @@
                 <element inactive_on_update="false" label="Fluente" sequence="2" value="fluente"/>
             </choice>
         </element>
-        <element choice="1" label="NIvel Ténico" max_length="40" name="nivel_tecnico" type="choice">
+        <element choice="1" label="Nivel Técnico" max_length="40" name="nivel_tecnico" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Junior" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Pleno" sequence="1" value="2"/>

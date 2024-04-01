@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Inglês">add7a4f1c39d421029107405e401313c</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 21:09:41</sys_created_on>
+        <sys_id>d7d728f1c39d421029107405e40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Fluente</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>question_choice_d7d728f1c39d421029107405e40131c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 21:09:41</sys_updated_on>
+        <text> Fluente</text>
+        <value>fluente</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d7d728f1c39d421029107405e40131c5"/>
+</record_update>

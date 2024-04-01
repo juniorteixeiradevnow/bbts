@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Formulário Candidatos">9b643d244744021008334d05516d439a</catalog_item>
+        <catalog_variable>IO:97d4fd244744021008334d05516d4311</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 20:44:15</sys_created_on>
+        <sys_id>7a02e0f5c35d421029107405e4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nome_completo</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7a02e0f5c35d421029107405e4013166</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 20:44:15</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Campos obrigatórios">dea12079c35d421029107405e4013190</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>nome_completo</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a02e0f5c35d421029107405e4013166"/>
+</record_update>
