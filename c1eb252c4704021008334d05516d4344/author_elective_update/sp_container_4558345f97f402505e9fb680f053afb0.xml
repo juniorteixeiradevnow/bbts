@@ -52,7 +52,7 @@
         <update_guid_history>37c8f0df5ef40250d7887136389962a9:1717827710,fa583c9f61f402507391cc4dcb666b17:-1564961025,1a58f0df3ff402503cbe722a18ecda68:1717827710,4558345f10f40250c5d630849f415fb1:705649149</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Home Prime Video - Container 2">a8d8b4df97f402505e9fb680f053af5e</sys_audit_delete>
+        <sys_audit_delete display_value="">a8d8b4df97f402505e9fb680f053af5e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-12 17:43:17</sys_created_on>

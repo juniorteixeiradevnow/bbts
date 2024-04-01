@@ -52,7 +52,7 @@
         <update_guid_history>7fc8f0dfa8f402506a31eb0054c8c3a6:-1564961025</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Home Prime Video - Container 1">d7f87c5f97f402505e9fb680f053af67</sys_audit_delete>
+        <sys_audit_delete display_value="">d7f87c5f97f402505e9fb680f053af67</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-12 17:44:01</sys_created_on>

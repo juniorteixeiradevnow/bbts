@@ -7,13 +7,12 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_1174267_case_b_0_candidatos</collection>
-        <condition table="x_1174267_case_b_0_candidatos">status=analisando_candidato^perguntas_respondidas=sim^EQ<item display_value="Analisando candidato" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="analisando_candidato"/>
-            <item display_value="Sim" endquery="false" field="perguntas_respondidas" goto="false" newquery="false" operator="=" or="false" value="sim"/>
+        <condition table="x_1174267_case_b_0_candidatos">status=entrevista_pessoal^EQ<item display_value="Entrevista pessoal" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="entrevista_pessoal"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
         <default_interval/>
-        <description>Todas as vezes que é criado um registro na tabela "Candidatos" envia o email com as perguntas adicionais.</description>
+        <description/>
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
@@ -39,14 +38,14 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p data-tinymcerootblock=""><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Ol&aacute;,<strong> ${nome}</strong></span></span><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">, ficamos felizes com o seu interesse em participar do nosso processo seletivo!</span></span></p>
-<p data-tinymcerootblock=""><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Para dar continuidade e avan&ccedil;ar nesse processo, precisamos de mais informa&ccedil;&otilde;es sobre voc&ecirc;, clique no bot&atilde;o abaixo e envie um email respondendo as perguntas adicionais:</span></span></p>
-<p data-tinymcerootblock="">&nbsp;</p>
-<p>${mail_script:RenderEmailButton}</p>
+        <message_html><![CDATA[<p>Ol&aacute;, <strong>${nome}</strong>, ficamos felizes de informar que voc&ecirc; passou para pr&oacute;xima fase do processo seletivo:&nbsp;<strong>ENTREVISTA PESSOAL</strong></p>
+<p>Sua entrevista ficou agendada para:&nbsp; <strong>${data_da_entrevista}<br /></strong></p>
+<p>Voc&ecirc; deve clicar em um dos bot&otilde;es abaixo para<strong> aprovar ou rejeitar</strong> data clicando em um dos bot&otilde;es abaixo e enviando-nos um email.</p>
+<p>${mail_script:RenderApproveReject}</p>
 <p>${mail_script:ReturnWaterMark}</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Envia email com as perguntas adicionais</name>
+        <name>Envia email com a data da entrevista</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -57,23 +56,23 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Tech Hire - Perguntas adicionais</subject>
+        <subject>Confirmação da entrevista</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-01 02:09:25</sys_created_on>
+        <sys_created_on>2024-04-01 18:19:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d2f1606dc319021029107405e401311e</sys_id>
-        <sys_mod_count>25</sys_mod_count>
-        <sys_name>Envia email com as perguntas adicionais</sys_name>
+        <sys_id>e34e33e5c399421029107405e4013163</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Envia email com a data da entrevista</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
-        <sys_update_name>sysevent_email_action_d2f1606dc319021029107405e401311e</sys_update_name>
+        <sys_update_name>sysevent_email_action_e34e33e5c399421029107405e4013163</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 18:07:44</sys_updated_on>
+        <sys_updated_on>2024-04-01 18:33:43</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

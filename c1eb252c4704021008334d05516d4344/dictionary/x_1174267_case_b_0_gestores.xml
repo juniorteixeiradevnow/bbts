@@ -38,13 +38,13 @@
             <element name="atribuido_a"/>
         </index>
         <index name="index2">
-            <element name="namereferencia"/>
-        </index>
-        <index name="index3">
             <element name="grupo_atribuido"/>
         </index>
-        <index name="index4">
+        <index name="index3">
             <element name="id_candidato"/>
+        </index>
+        <index name="index4">
+            <element name="namereferencia"/>
         </index>
         <index name="index5">
             <element name="u_reference_1"/>

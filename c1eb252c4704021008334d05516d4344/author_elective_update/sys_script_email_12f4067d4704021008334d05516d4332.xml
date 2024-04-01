@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>reject_button</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+
+		var img = "/reject.png";
+
+		var response = "reject";
+
+		var emailbod = "Eu não aprovo!";
+
+		template.print(renderApproveReject(img, response, emailbod));
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 00:38:37</sys_created_on>
+        <sys_id>12f4067d4704021008334d05516d4332</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>reject_button</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sys_script_email_12f4067d4704021008334d05516d4332</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 14:22:07</sys_updated_on>
+    </sys_script_email>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</application>
+        <file_path/>
+        <instance_id>f26183941b5d421065324089bd4bcb04</instance_id>
+        <instance_name>dev250840</instance_name>
+        <name>sys_script_email_12f4067d4704021008334d05516d4332</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;
+    &lt;sys_script_email action="INSERT_OR_UPDATE"&gt;
+        &lt;name&gt;reject_button&lt;/name&gt;
+        &lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;
+        &lt;script&gt;&lt;![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+
+		var img = "/reject.png";
+
+		var response = "reject";
+
+		var emailbod = "Eu não aprovo!";
+
+		template.print(renderApproveReject(img, response, emailbod));
+
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-31 00:38:37&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;12f4067d4704021008334d05516d4332&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;reject_button&lt;/sys_name&gt;
+        &lt;sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0"&gt;c1eb252c4704021008334d05516d4344&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Case Banco Brasil Tecnologia"&gt;c1eb252c4704021008334d05516d4344&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_email_12f4067d4704021008334d05516d4332&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-31 14:22:07&lt;/sys_updated_on&gt;
+    &lt;/sys_script_email&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1041981134</payload_hash>
+        <record_name>reject_button</record_name>
+        <reverted_from/>
+        <source>43a87ed5c311021029107405e40131a8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-31 18:25:48</sys_created_on>
+        <sys_id>78c8f619c311021029107405e4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e95c2b1d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-31 18:25:48</sys_updated_on>
+        <type>Email Script</type>
+        <update_guid>38c8f61969110210f174ac596f2b4506</update_guid>
+        <update_guid_history>38c8f61969110210f174ac596f2b4506:-1041981134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 16:49:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>07ac937067114ca88c6d1952ad490b10</sys_id>
+        <sys_metadata>12f4067d4704021008334d05516d4332</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reject_button</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_scope_delete display_value="">01e6c8d2601048c880237a851a04b864</sys_scope_delete>
+        <sys_update_name>sys_script_email_12f4067d4704021008334d05516d4332</sys_update_name>
+        <sys_update_version display_value="sys_script_email_12f4067d4704021008334d05516d4332">78c8f619c311021029107405e4013106</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 16:49:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

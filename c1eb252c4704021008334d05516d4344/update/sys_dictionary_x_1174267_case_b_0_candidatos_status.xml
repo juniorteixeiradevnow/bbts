@@ -2,10 +2,10 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="status" table="x_1174267_case_b_0_candidatos">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Status</column_label>
@@ -14,8 +14,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>status</dependent>
-        <dependent_on_field>status</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1174267_case_b_0_gestores">x_1174267_case_b_0_gestores</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-11 19:13:22</sys_created_on>
+        <sys_created_on>2024-04-01 16:33:32</sys_created_on>
         <sys_name>Status</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_dictionary_x_1174267_case_b_0_candidatos_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-11 19:14:53</sys_updated_on>
+        <sys_updated_on>2024-04-01 16:33:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
+        <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

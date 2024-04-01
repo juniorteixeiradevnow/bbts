@@ -108,7 +108,7 @@ function ManagerParse(response) {
         <update_guid_history>7cfaaef3cdc9c690fe7949d89035412e:-694325145,e49a66f371c9c690343d2275ae3a3eb0:1319656038,8af92ab317c9c69033e74274538308ea:482216074</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Chamar Api Via Cep">7d4bea7397c9c6905e9fb680f053af50</sys_audit_delete>
+        <sys_audit_delete display_value="">7d4bea7397c9c6905e9fb680f053af50</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-27 01:36:01</sys_created_on>

@@ -1025,7 +1025,7 @@ footer {&amp;#13;
         <update_guid_history>1498fc5fd2f402508e1543c8814888a1:1689352708,db88f4df0ff40250ef7ca680359783db:1283060809,a8383c9feef40250b87b57f8c2e95c0e:177972802,da97fc1fb8f40250029f3bddd560a478:-1088505141</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="MainPrimePortal">727ec8ac4751021024403698c26d43da</sys_audit_delete>
+        <sys_audit_delete display_value="">727ec8ac4751021024403698c26d43da</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-28 22:06:23</sys_created_on>

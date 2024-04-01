@@ -3,272 +3,302 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>fe34b273970dc6905e9fb680f053af0a</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>088b272dc319421029107405e40131c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>nome</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>status</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3a34b273970dc6905e9fb680f053af0b</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>0c8b272dc319421029107405e40131c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>cpf</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>perguntas_respondidas</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3e34b273970dc6905e9fb680f053af0b</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>008b272dc319421029107405e40131c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>email</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>nome</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3234b273970dc6905e9fb680f053af0c</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>048b272dc319421029107405e40131c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>telefone</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>cpf</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3634b273970dc6905e9fb680f053af0c</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>088b272dc319421029107405e40131c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>data_de_nascimento</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>email</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3a34b273970dc6905e9fb680f053af0c</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>0c8b272dc319421029107405e40131c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>estado_civil</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>telefone</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3e34b273970dc6905e9fb680f053af0c</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>008b272dc319421029107405e40131c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>grau_de_escolaridade</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>data_de_nascimento</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3234b273970dc6905e9fb680f053af0d</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>048b272dc319421029107405e40131c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>cidade</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>estado_civil</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3634b273970dc6905e9fb680f053af0d</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>088b272dc319421029107405e40131c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>estado</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>grau_de_escolaridade</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3a34b273970dc6905e9fb680f053af0d</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>0c8b272dc319421029107405e40131c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>rua</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>cidade</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3e34b273970dc6905e9fb680f053af0d</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>008b272dc319421029107405e40131c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>cep</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>estado</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3234b273970dc6905e9fb680f053af0e</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>048b272dc319421029107405e40131c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>bairro</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>rua</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>12</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3634b273970dc6905e9fb680f053af0e</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>088b272dc319421029107405e40131c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>anexo</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>cep</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>13</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3a34b273970dc6905e9fb680f053af0e</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>0c8b272dc319421029107405e40131c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>idiomas_espanhol</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>bairro</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>14</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3e34b273970dc6905e9fb680f053af0e</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>008b272dc319421029107405e40131c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>idiomas_ingles</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>anexo</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>15</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3234b273970dc6905e9fb680f053af0f</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>048b272dc319421029107405e40131c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>idiomas_portugues</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>idiomas_espanhol</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>16</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3634b273970dc6905e9fb680f053af0f</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>088b272dc319421029107405e40131c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>genero</element>
-            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b634b273970dc6905e9fb680f053af09</list_id>
+            <element>idiomas_ingles</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>17</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
-            <sys_id>3a34b273970dc6905e9fb680f053af0f</sys_id>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>0c8b272dc319421029107405e40131c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>idiomas_portugues</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>008b272dc319421029107405e40131c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>genero</element>
+            <list_id display_value="x_1174267_case_b_0_candidatos" element="NULL" name="x_1174267_case_b_0_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">008b272dc319421029107405e40131c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
+            <sys_id>048b272dc319421029107405e40131c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -282,10 +312,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-27 02:15:08</sys_created_on>
+            <sys_created_on>2024-04-01 16:45:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b634b273970dc6905e9fb680f053af09</sys_id>
+            <sys_id>008b272dc319421029107405e40131c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1174267_case_b_0_candidatos</sys_name>
             <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
@@ -293,7 +323,7 @@
             <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
             <sys_update_name>sys_ui_list_x_1174267_case_b_0_candidatos_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-27 02:15:08</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:45:58</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
