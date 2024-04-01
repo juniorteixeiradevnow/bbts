@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="perguntas_respondidas" table="x_1174267_case_b_0_candidatos">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="data_da_entrevista_tecnica" table="x_1174267_case_b_0_candidatos">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Perguntas respondidas</column_label>
+        <column_label>Data da entrevista técnica</column_label>
         <comments/>
         <create_roles/>
-        <default_value>nao</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,13 +21,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>perguntas_respondidas</element>
+        <element>data_da_entrevista_tecnica</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">calendar_date_time</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1174267_case_b_0_candidatos</name>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-12 03:49:01</sys_created_on>
-        <sys_name>Perguntas respondidas</sys_name>
+        <sys_created_on>2024-04-01 00:15:31</sys_created_on>
+        <sys_name>Data da entrevista técnica</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
-        <sys_update_name>sys_dictionary_x_1174267_case_b_0_candidatos_perguntas_respondidas</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1174267_case_b_0_candidatos_data_da_entrevista_tecnica</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-31 23:44:48</sys_updated_on>
+        <sys_updated_on>2024-04-01 00:16:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

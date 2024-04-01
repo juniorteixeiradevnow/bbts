@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="data_da_entrevista_tecnica" label="Data da entrevista técnica" language="en" table="x_1174267_case_b_0_candidatos">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>data_da_entrevista_tecnica</element>
+            <help/>
+            <hint/>
+            <label>Data da entrevista técnica</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <plural>Data da entrevista técnicas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 00:15:31</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Data da entrevista técnica</sys_name>
+            <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+            <sys_update_name>sys_documentation_x_1174267_case_b_0_candidatos_data_da_entrevista_tecnica_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 00:16:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

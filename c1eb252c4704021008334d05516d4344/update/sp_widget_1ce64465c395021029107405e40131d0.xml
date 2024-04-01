@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	
+	var url = location.href;
+	var regex = /acesskey=([^&]*)/;
+	var match = url.match(regex);
+	if (match) {
+		var key = match[1];
+		c.data.acesskey = key;
+		$scope.server.update();
+	}
+	
+	
+	
+	
+	c.approve = function (){
+		c.data.action = "submit";
+		$scope.server.update();
+	}
+	
+	c.reject = function (){
+		c.data.action = "cancel";
+		$scope.server.update();
+	}
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>data_da_entrevista</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Confirmação data da entrevista</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	
+	if(input){
+	var gr = new GlideRecord('x_1174267_case_b_0_candidatos')
+		gr.addEncodedQuery('chave_de_acesso=' + input.acesskey + '^perguntas_respondidas=sim');
+		gr.query();
+		if(gr.next()){
+			data.render = true;
+			data.nome = gr.getDisplayValue('nome');
+			data.datadantrevista = gr.getDisplayValue('data_da_entrevista');
+		}
+		
+		if(input.action){
+			
+			var gr2 = new GlideRecord('x_1174267_case_b_0_candidatos')
+			gr2.addEncodedQuery('chave_de_acesso=' + input.acesskey + '^perguntas_respondidas=sim');
+			gr2.query();
+			if(gr2.next()){
+				
+				if(input.action == "submit"){
+					
+					gr2.setValue("status", "entrevista_agendada");
+					gs.addInfoMessage("Entrevista Confirmada com sucesso!");
+					gr2.update();
+				}
+				
+				if(input.action == "cancel"){
+					gr2.setValue("status", "entrevista_cancelada");
+					gs.addInfoMessage("Entrevista Confirmada com sucesso!");
+					gr2.update();
+				}
+			}
+		}
+		
+	}
+	
+	
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 00:07:06</sys_created_on>
+        <sys_id>1ce64465c395021029107405e40131d0</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Confirmação data da entrevista</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sp_widget_1ce64465c395021029107405e40131d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 00:45:25</sys_updated_on>
+        <template><![CDATA[<div>
+
+ <div class="container mt-5">
+    <h2>Aprovação de Data da Entrevista</h2>
+    <div class="row mt-3">
+      <h2>
+        Olá, {{data.nome}}
+      </h2>
+      <div class="col">
+        <h4>
+          Sua entrevista esta agendada para:
+         <p>Data da Entrevista: <span id="dataEntrevista">{{data.datadantrevista}}</span></p>
+        </h4>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col">
+        <button id="confirmarData" class="btn btn-success mr-2" ng-click="c.approve()">Confirmar Data da Entrevista</button>
+        
+        
+        <button id="cancelar" class="btn btn-danger mr-2" ng-click="c.reject()">Cancelar e solicitar nova data</button>
+      </div>
+    </div>
+  </div> 
+  
+  
+  
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>
