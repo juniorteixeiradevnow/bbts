@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>flow_bbbts</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Candidatos Record","reference":"x_1174267_case_b_0_candidatos","reference_display":"Candidatos","type":"reference","base_type":"reference","usedInstances":{"52cdd680-aa18-4e28-8745-ec858646f2f8":["record"],"e73ec68b-004a-41c7-abd8-13491cd0681a":["record"]},"attributes":{}},{"name":"Created_1.current.nome","label":"Trigger - Record Created➛Candidatos Record➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"nome","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["null"],"9b2e618b-b9b7-43df-84e3-c12235bc2da4":[null]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Candidatos Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"email","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["ah_to"],"9b2e618b-b9b7-43df-84e3-c12235bc2da4":["ah_to"]}},{"name":"Created_1.current.chave_de_acesso","label":"Trigger - Record Created➛Candidatos Record➛Chave de Acesso","reference":"","reference_display":"Chave de Acesso","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"chave_de_acesso","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["undefined",null]}},{"name":"Created_1.current.perguntas_respondidas","label":"Trigger - Record Created➛Candidatos Record➛Perguntas respondidas","reference":"","reference_display":"Perguntas respondidas","type":"choice","base_type":"choice","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"perguntas_respondidas","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"rawLabel":"-- None --","selected":false,"reference":false,"value":""},{"image":"","used":false,"label":"Sim","missing":false,"rawLabel":"Sim","selected":false,"reference":false,"value":"sim","parameters":{"name":"x_1174267_case_b_0_candidatos"}},{"image":"","used":false,"label":"Não","missing":false,"rawLabel":"Não","selected":false,"reference":false,"value":"nao","parameters":{"name":"x_1174267_case_b_0_candidatos"}}],"usedInstances":{"9eb29b04-b01f-465a-9cef-4ef006c7fdf4":["condition"]}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Candidatos Record➛Status","reference":"x_1174267_case_b_0_gestores","reference_display":"Atendente \u0026\u0026 Time Técnico","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"status","usedInstances":{"911b566f-8225-45c3-8d38-90a146d8dc38":["condition"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.status","label":"Trigger - Record Created➛Candidatos Record➛Status","reference":"x_1174267_case_b_0_gestores","reference_display":"Atendente \u0026\u0026 Time Técnico","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"status","usedInstances":{"911b566f-8225-45c3-8d38-90a146d8dc38":["condition"]}},{"name":"Created_1.current.perguntas_respondidas","label":"Trigger - Record Created➛Candidatos Record➛Perguntas respondidas","reference":"","reference_display":"Perguntas respondidas","type":"choice","base_type":"choice","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"perguntas_respondidas","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"rawLabel":"-- None --","selected":false,"reference":false,"value":""},{"image":"","used":false,"label":"Sim","missing":false,"rawLabel":"Sim","selected":false,"reference":false,"value":"sim","parameters":{"name":"x_1174267_case_b_0_candidatos"}},{"image":"","used":false,"label":"Não","missing":false,"rawLabel":"Não","selected":false,"reference":false,"value":"nao","parameters":{"name":"x_1174267_case_b_0_candidatos"}}],"usedInstances":{"9eb29b04-b01f-465a-9cef-4ef006c7fdf4":["condition"]}},{"name":"Created_1.current.chave_de_acesso","label":"Trigger - Record Created➛Candidatos Record➛Chave de Acesso","reference":"","reference_display":"Chave de Acesso","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"chave_de_acesso","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["undefined",null]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Candidatos Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"email","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["ah_to"],"9b2e618b-b9b7-43df-84e3-c12235bc2da4":["ah_to"]}},{"name":"Created_1.current.nome","label":"Trigger - Record Created➛Candidatos Record➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1174267_case_b_0_candidatos","column_name":"nome","usedInstances":{"4c100073-c7e0-4938-b5ef-15b9a0fdc28b":["null"],"9b2e618b-b9b7-43df-84e3-c12235bc2da4":[null]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Candidatos Record","reference":"x_1174267_case_b_0_candidatos","reference_display":"Candidatos","type":"reference","base_type":"reference","usedInstances":{"52cdd680-aa18-4e28-8745-ec858646f2f8":["record"],"e73ec68b-004a-41c7-abd8-13491cd0681a":["record"]},"attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Flow BBBTS</name>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3eb786164700021008334d05516d43f6</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>Flow BBBTS</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_hub_flow_3eb786164700021008334d05516d43f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3eb786164700021008334d05516d43f6"/>
@@ -58,10 +58,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 23:49:52</sys_created_on>
         <sys_id>d2994ac54770021008334d05516d4337</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -298,10 +298,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 23:50:52</sys_created_on>
         <sys_id>2a23c825c395021029107405e4013169</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <ui_id>d9ab63a4-2b95-4a26-8804-f631d583a640</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2a23c825c395021029107405e4013169"/>
@@ -339,10 +339,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-01 00:33:21</sys_created_on>
         <sys_id>34ec8061c3d5021029107405e401314e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <ui_id>9b2e618b-b9b7-43df-84e3-c12235bc2da4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=34ec8061c3d5021029107405e401314e"/>
@@ -444,10 +444,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-08 21:41:38</sys_created_on>
         <sys_id>4d09854297348a105e9fb680f053afd5</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <ui_id>4c100073-c7e0-4938-b5ef-15b9a0fdc28b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4d09854297348a105e9fb680f053afd5"/>
@@ -554,10 +554,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 23:49:52</sys_created_on>
         <sys_id>52994ac54770021008334d05516d4340</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <ui_id>d7bd9ac1-d3b6-41d4-bbaf-41fbeea0dcf1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=52994ac54770021008334d05516d4340"/>
@@ -596,15 +596,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 23:49:52</sys_created_on>
         <sys_id>5e994ac54770021008334d05516d4342</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-11 18:45:07</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Ol&amp;aacute;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:8dead2b2-525d-4760-ba7f-f1629fee7fd0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:8dead2b2-525d-4760-ba7f-f1629fee7fd0}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Candidatos Record &amp;gt; Nome"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Nome&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_8dead2b2-525d-4760-ba7f-f1629fee7fd0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, ficamos felizes com o seu interesse em participar do nosso processo seletivo!&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Para dar continuidade e avan&amp;ccedil;ar nesse processo, necessitamos&amp;nbsp;que voc&amp;ecirc; confirme ou n&amp;atilde;o sua candidatura em nosso processo seletivo, clicando nos bot&amp;otilde;es abaixo:&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&lt;a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #4caf50; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none;" href="mailto:bancodonowpro@gmail.com?subject=Resposta%20da%20solicita&amp;ccedil;&amp;atilde;o&amp;amp;body=Eu%20aprovo"&gt;Aprovar&lt;/a&gt; &lt;a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #ff5733; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none; margin-left: 10px;" href="mailto:bancodonowpro@gmail.com?subject=Resposta%20da%20solicita&amp;ccedil;&amp;atilde;o&amp;amp;body=Eu%20rejeito"&gt;Rejeitar&lt;/a&gt;&lt;/p&gt;</value>
+&lt;p data-tinymcerootblock=""&gt;&lt;a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #4caf50; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=Resposta%20da%20solicita&amp;ccedil;&amp;atilde;o&amp;amp;body=Eu%20aprovo"&gt;Aprovar&lt;/a&gt; &lt;a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #ff5733; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none; margin-left: 10px;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=Resposta%20da%20solicita&amp;ccedil;&amp;atilde;o&amp;amp;body=Eu%20rejeito"&gt;Rejeitar&lt;/a&gt;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -662,10 +662,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 23:50:52</sys_created_on>
         <sys_id>ee23c825c395021029107405e4013154</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <ui_id>e73ec68b-004a-41c7-abd8-13491cd0681a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee23c825c395021029107405e4013154"/>
@@ -762,10 +762,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 23:50:52</sys_created_on>
         <sys_id>2623c825c395021029107405e4013159</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <ui_id>9eb29b04-b01f-465a-9cef-4ef006c7fdf4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -810,10 +810,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 23:50:52</sys_created_on>
         <sys_id>2623c825c395021029107405e4013163</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 01:14:24</sys_updated_on>
+        <sys_updated_on>2024-04-01 02:26:00</sys_updated_on>
         <ui_id>911b566f-8225-45c3-8d38-90a146d8dc38</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

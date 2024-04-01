@@ -87,5 +87,9 @@
         <element label="Rua" max_length="200" name="rua" type="string"/>
         <element dependent="status" dependent_on_field="status" label="Status" max_length="40" name="status" reference="x_1174267_case_b_0_gestores" type="string" use_dependent_field="true"/>
         <element label="Telefone" max_length="20" name="telefone" type="string"/>
+        <element attributes="encode_utf8=false" label="User reference" max_length="32" name="user_reference" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user_reference"/>
+        </index>
     </element>
 </database>
