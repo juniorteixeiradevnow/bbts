@@ -7,7 +7,7 @@
           /* Optional GlideRecord */ event) {
 
 
-		  var mailButtons = '<a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #4caf50; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=RE: Confirmação da entrevista&amp;body=Eu%20aprovo %0D%0A %0D%0A' + encodeURIComponent(email.watermark) + '">Aprovar</a> <a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #ff5733; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none; margin-left: 10px;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=RE: Confirmação da entrevista&amp;body=Forneça uma nova data abaixo com o mesmo formato depois de &quot;Nova data&quot;:%0D%0A Nova data: 2024-03-20 17:16:37 %0D%0A %0D%0A' + encodeURIComponent(email.watermark) + '">Rejeitar</a>';
+		  var mailButtons = '<a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #4caf50; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=RE: Confirmação da entrevista&amp;body=Eu%20aprovo %0D%0A %0D%0A' + encodeURIComponent(email.watermark) + '">Aprovar</a> <a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #ff5733; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none; margin-left: 10px;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=RE: Confirmação da entrevista&amp;body=Eu rejeito a data %0D%0A %0D%0A' + encodeURIComponent(email.watermark) + '">Rejeitar</a>';
 		  template.print(mailButtons);
 
 })(current, template, email, email_action, event);]]></script>
@@ -15,13 +15,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-01 18:17:02</sys_created_on>
         <sys_id>1a2f3fe5c399421029107405e401316b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>RenderApproveReject</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_script_email_1a2f3fe5c399421029107405e401316b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 21:58:09</sys_updated_on>
+        <sys_updated_on>2024-04-02 20:00:06</sys_updated_on>
     </sys_script_email>
 </record_update>

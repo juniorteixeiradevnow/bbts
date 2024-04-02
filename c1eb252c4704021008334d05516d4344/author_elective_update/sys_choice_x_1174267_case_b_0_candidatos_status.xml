@@ -19,25 +19,6 @@
             <dependent_value/>
             <element>status</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Analisando candidato</label>
-            <language>en</language>
-            <name>x_1174267_case_b_0_candidatos</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
-            <value>analisando_candidato</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
             <inactive>true</inactive>
             <label>Avalicação time técnico</label>
             <language>en</language>
@@ -52,6 +33,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-04-01 19:11:38</sys_updated_on>
             <value>avalicacao time tecnico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Candidatura recebida</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-02 18:04:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-02 18:04:35</sys_updated_on>
+            <value>candidatura_recebida</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -76,6 +76,25 @@
             <dependent_value/>
             <element>status</element>
             <hint/>
+            <inactive>false</inactive>
+            <label>Analisando candidato</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
+            <value>analisando_candidato</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
             <inactive>true</inactive>
             <label>Entrevista Técnica cancelada</label>
             <language>en</language>
@@ -90,25 +109,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-04-01 16:33:32</sys_updated_on>
             <value>entrevista tecnica cancelada</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Entrevista pessoal</label>
-            <language>en</language>
-            <name>x_1174267_case_b_0_candidatos</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
-            <value>entrevista_pessoal</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -134,7 +134,7 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Data da entrevista agendada</label>
+            <label>Entrevista pessoal</label>
             <language>en</language>
             <name>x_1174267_case_b_0_candidatos</name>
             <sequence>2</sequence>
@@ -143,10 +143,10 @@
             <sys_created_on>2024-04-01 16:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
-            <value>data_da_entrevista_agendada</value>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
+            <value>entrevista_pessoal</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -172,7 +172,7 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Entrevista cancelada</label>
+            <label>Data da entrevista agendada</label>
             <language>en</language>
             <name>x_1174267_case_b_0_candidatos</name>
             <sequence>3</sequence>
@@ -181,9 +181,28 @@
             <sys_created_on>2024-04-01 16:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
+            <value>data_da_entrevista_agendada</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Entrevista cancelada</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
             <value>entrevista_cancelada</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -194,15 +213,15 @@
             <label>Avalicação time técnico</label>
             <language>en</language>
             <name>x_1174267_case_b_0_candidatos</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-04-01 16:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 19:11:15</sys_updated_on>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
             <value>avaliacao_time_tecnico</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -213,15 +232,15 @@
             <label>Entrevista técnica agendada</label>
             <language>en</language>
             <name>x_1174267_case_b_0_candidatos</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-04-01 16:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:35:09</sys_updated_on>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
             <value>entrevista_tecnica_agendada</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -232,15 +251,15 @@
             <label>Entrevista técnica cancelada</label>
             <language>en</language>
             <name>x_1174267_case_b_0_candidatos</name>
-            <sequence>6</sequence>
+            <sequence>7</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-04-01 16:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:35:09</sys_updated_on>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
             <value>entrevista_tecnica_cancelada</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -251,15 +270,15 @@
             <label>Candidato aprovado</label>
             <language>en</language>
             <name>x_1174267_case_b_0_candidatos</name>
-            <sequence>7</sequence>
+            <sequence>8</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-04-01 16:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:35:09</sys_updated_on>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
             <value>candidato_aprovado</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -270,15 +289,15 @@
             <label>Candidato reprovado</label>
             <language>en</language>
             <name>x_1174267_case_b_0_candidatos</name>
-            <sequence>8</sequence>
+            <sequence>9</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-04-01 16:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:35:09</sys_updated_on>
+            <sys_updated_on>2024-04-02 18:04:36</sys_updated_on>
             <value>candidato_reprovado</value>
         </sys_choice>
     </sys_choice>

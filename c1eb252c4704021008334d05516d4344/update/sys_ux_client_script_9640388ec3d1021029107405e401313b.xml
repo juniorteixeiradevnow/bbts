@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Home">981c5ce0c2d102100e1854390d3f0cb1</macroponent>
+        <name>apply filter</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+
+function applyFilter ({ api, event, imports }) { 
+    api.setState('parFilters', 
+    ({ currentValue }) => { 
+        const { payload: { appliedFilters } } = event; 
+        return imports['global.mergePARFilters']()(currentValue, appliedFilters); 
+        });
+    }
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 17:48:42</sys_created_on>
+        <sys_id>9640388ec3d1021029107405e401313b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>apply filter</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sys_ux_client_script_9640388ec3d1021029107405e401313b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 17:48:42</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

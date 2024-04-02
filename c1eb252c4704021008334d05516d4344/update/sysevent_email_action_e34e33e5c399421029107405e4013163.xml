@@ -42,7 +42,7 @@
         <message_html><![CDATA[<p>Ol&aacute;, <strong>${nome}</strong>, ficamos felizes de informar que voc&ecirc; passou para pr&oacute;xima fase do processo seletivo:&nbsp;<strong>ENTREVISTA PESSOAL</strong></p>
 <p>Sua entrevista ficou agendada para:&nbsp; <strong>${data_da_entrevista}<br /></strong></p>
 <p>Voc&ecirc; deve clicar em um dos bot&otilde;es abaixo para<strong> aprovar ou rejeitar</strong> data clicando em um dos bot&otilde;es abaixo e enviando-nos um email.</p>
-<p>${mail_script:RenderApproveReject}</p>
+<p>${mail_script:RenderApproveReject} <a style="display: inline-block; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #8075ff; color: white; border: none; border-radius: 5px; text-align: center; text-decoration: none;" href="https://dev250840.service-now.com/sp?id=data_da_entrevista&amp;acesskey=${chave_de_acesso}"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Solicitar nova data</span></span></a></p>
 <p>${mail_script:ReturnWaterMark}</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -65,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e34e33e5c399421029107405e4013163</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Envia email com a data da entrevista</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
@@ -73,7 +73,7 @@
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sysevent_email_action_e34e33e5c399421029107405e4013163</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 21:56:49</sys_updated_on>
+        <sys_updated_on>2024-04-02 20:07:36</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
