@@ -12,10 +12,10 @@ GeradorDeToken.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
 	generate: function (){
 
-		const caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_';
+		const caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
 		let token = '';
-		for (let i = 0; i < 10; i++) {
+		for (let i = 0; i < 7; i++) {
 			const randomIndex = Math.floor(Math.random() * caracteres.length);
 			token += caracteres.charAt(randomIndex);
 		}
@@ -31,13 +31,13 @@ GeradorDeToken.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 23:57:14</sys_created_on>
         <sys_id>b10b06494770021008334d05516d43c6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>GeradorDeToken</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_script_include_b10b06494770021008334d05516d43c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-06 00:00:01</sys_updated_on>
+        <sys_updated_on>2024-04-03 01:24:51</sys_updated_on>
     </sys_script_include>
 </record_update>

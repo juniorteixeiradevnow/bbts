@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	var url = location.href;
+	var regex = /acesskey=([^&]*)/;
+	var match = url.match(regex);
+	if (match) {
+		var key = match[1];
+		c.data.acesskey = key;
+		$scope.server.update();
+		c.data.render = true;
+	} else {
+		c.data.render = false;
+	}
+	
+
+
+	
+
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>acompanhar_participacao</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Acompanhar participação</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	
+	if(input){
+	var gr = new GlideRecord('x_1174267_case_b_0_candidatos')
+		gr.addEncodedQuery('chave_de_acesso=' + input.acesskey);
+		gr.query();
+		if(gr.next()){
+			
+			data.formNaoRespondido = true;
+			data.nome = gr.getDisplayValue('nome');
+			data.status = gr.getDisplayValue('status');
+			data.datadantrevista = gr.getDisplayValue('data_da_entrevista');
+			data.datadainscricao = gr.getDisplayValue('sys_created_on');
+			
+			var statusobj = {
+				'Candidatura recebida': 1,
+        'Analisando candidato': 2,
+        'Entrevista pessoal': 3,
+				'Data da entrevista agendada': 4,
+        'Avalicação time técnico': 5,
+        'Entrevista técnica agendada': 6,
+        'Candidato aprovado': 7,
+				'Candidato reprovado': 8,
+			};
+
+		data.indicedostatus = statusobj[data.status];
+		gs.addInfoMessage("INDICE:" + data.indicedostatus)
+			
+		} else {
+			data.formJaRespondido = true;
+		}
+			}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 23:31:41</sys_created_on>
+        <sys_id>b0f19e8ac3d9021029107405e4013112</sys_id>
+        <sys_mod_count>103</sys_mod_count>
+        <sys_name>Acompanhar participação</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sp_widget_b0f19e8ac3d9021029107405e4013112</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 02:51:24</sys_updated_on>
+        <template><![CDATA[
+<div class="container mt-5" ng-if="c.data.render">
+  <h2 class="mb-4">Acompanhamento do Processo Seletivo</h2>
+  
+  <div class="card border-primary">
+    <div class="card-header bg-primary text-white">
+      Informações Gerais {{data.indicedostatus}}
+    </div>
+    <div class="card-body">
+      <p class="card-text"><strong>Nome do Candidato:</strong> <b>{{data.nome}}</b></p>
+      <p class="card-text"><strong>Data de Inscrição:</strong> {{data.datadainscricao}}</p>
+      <p class="card-text"><strong>Status Atual:</strong> {{data.status}}</p>
+      
+      <h4 class="mt-4">Fases do Processo:</h4>
+      <ul class="list-group" ng-if="data.indicedostatus !== 8">
+        <li class="list-group-item d-flex justify-content-between align-items-center" >
+          Envio da Candidatura
+          <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus < 1">⚠</span>
+					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus >= 1">✔</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Avaliação da Candidatura
+         <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus <= 2">⚠</span>
+					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus > 2">✔</span>
+
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Entrevista Pessoal
+          <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus <= 3 || data.indicedostatus == 4">⚠</span>
+					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus > 4">✔</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Avaliação do Time Técnico
+          <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus <= 5">⚠</span>
+					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus > 5">✔</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Entrevista com o Time Técnico
+         <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus <= 6">⚠</span>
+					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus > 6">✔</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Aprovação
+					         <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus < 7">⚠</span>
+					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus == 7">✔</span>
+        </li>
+      </ul>
+      <ul class="list-group" ng-if="data.indicedostatus == 8">
+        	<span class="badge badge-primary badge-pill" style="background-color:red" ng-if="data.indicedostatus === 8">Lamentamos muito infelizmente você foi reprovado no processo seletivo!</span>
+      </ul>
+      
+    </div>
+  </div>
+</div>
+<div class="container mt-5" ng-if="!c.data.render">
+	<h3>
+    Você não tem permissão para acessar essa página!
+  </h3>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>]]></template>
+    </sp_widget>
+</record_update>
