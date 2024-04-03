@@ -43,6 +43,11 @@
 <p data-tinymcerootblock=""><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Para dar continuidade e avan&ccedil;ar nesse processo, precisamos de mais informa&ccedil;&otilde;es sobre voc&ecirc;, clique no bot&atilde;o abaixo e envie um email respondendo as perguntas adicionais:</span></span></p>
 <p data-tinymcerootblock="">&nbsp;</p>
 <p>${mail_script:RenderEmailButton}</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Voc&ecirc; tamb&eacute;m pode acompanhar sua candidatura clicando no bot&atilde;o</p>
+<p><a style="display: inline-block; background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px;" href="https://dev250840.service-now.com/bbts?id=acompanhar_participacao&amp;acesskey=${chave_de_acesso}">Acompanhar Candidatura</a></p>
+<p>&nbsp;</p>
 <p>${mail_script:ReturnWaterMark}</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -65,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2f1606dc319021029107405e401311e</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Envia email com as perguntas adicionais</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
@@ -73,7 +78,7 @@
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sysevent_email_action_d2f1606dc319021029107405e401311e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 21:56:24</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:20:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=716000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=35084000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>19ec78cec315021029107405e4013184</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Enviar email entrevista tecnica cancelada</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_hub_flow_19ec78cec315021029107405e4013184</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:02</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:50</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=19ec78cec315021029107405e4013184"/>
@@ -78,14 +78,14 @@
         <identifier>19ec78cec315021029107405e4013184</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-02 17:32:02</sys_created_on>
-        <sys_id>a8afb8c2c355021029107405e401315b</sys_id>
+        <sys_created_on>2024-04-03 03:04:49</sys_created_on>
+        <sys_id>cbb28f4ac3dd021029107405e40131f4</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:02</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:49</sys_updated_on>
         <trigger display_value="">0c0ef042c355021029107405e40131d1</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=19ec78cec315021029107405e4013184^sys_idNOT INa8afb8c2c355021029107405e401315b"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=19ec78cec315021029107405e4013184^sys_idNOT INcbb28f4ac3dd021029107405e40131f4"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=19ec78cec315021029107405e4013184^sys_idNOT IN2f5dbccac315021029107405e401310f"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment>Quando status mudar para "Entrevista Tecnica Cancelada" o candidato é reprovado automaticamente</comment>
@@ -96,10 +96,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:22:08</sys_created_on>
         <sys_id>2f5dbccac315021029107405e401310f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:02</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:50</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -213,14 +213,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:24:51</sys_created_on>
         <sys_id>a7fd7c02c355021029107405e40131de</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:02</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -297,14 +297,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:24:52</sys_created_on>
         <sys_id>a7fdf042c355021029107405e4013166</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:02</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -434,7 +434,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Atualiza status para "Candidato reprovado" porque cancelou com time técnico!</comment>
         <display_text/>
         <flow display_value="Enviar email entrevista tecnica cancelada">19ec78cec315021029107405e4013184</flow>
         <generation_source/>
@@ -444,10 +444,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:22:51</sys_created_on>
         <sys_id>8a8d7802c355021029107405e4013132</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:02</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-03 03:05:25</sys_updated_on>
         <ui_id>0d620024-4729-4c6e-85d1-c143ce7ba8ef</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a8d7802c355021029107405e4013132"/>
@@ -626,7 +626,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>77fdf042c355021029107405e401318e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -634,7 +634,7 @@
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:01</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:49</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=77fdf042c355021029107405e401318e"/>
@@ -649,10 +649,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:24:53</sys_created_on>
         <sys_id>8c0ef042c355021029107405e40131c7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:02</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:50</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -766,14 +766,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:24:53</sys_created_on>
         <sys_id>37fdf042c355021029107405e40131aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:01</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -850,14 +850,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:24:53</sys_created_on>
         <sys_id>3ffdf042c355021029107405e4013190</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:01</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -987,7 +987,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Atualiza status para "Candidato reprovado" porque cancelou com time técnico!</comment>
         <display_text/>
         <flow display_value="Enviar email entrevista tecnica cancelada">77fdf042c355021029107405e401318e</flow>
         <generation_source/>
@@ -997,10 +997,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:24:53</sys_created_on>
         <sys_id>8c0ef042c355021029107405e40131c5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:01</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:49</sys_updated_on>
         <ui_id>0d620024-4729-4c6e-85d1-c143ce7ba8ef</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8c0ef042c355021029107405e40131c5"/>
@@ -1158,17 +1158,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"4c0ef042c355021029107405e40131d3","name":"plan","plan_signature":null}}</plan>
         <plan_id>19ec78cec315021029107405e4013184</plan_id>
-        <snapshot>77fdf042c355021029107405e401318e</snapshot>
+        <snapshot>f7d2c38ac3dd021029107405e4013156</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 17:24:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4c0ef042c355021029107405e40131d3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 17:32:02</sys_updated_on>
+        <sys_updated_on>2024-04-03 03:04:49</sys_updated_on>
         <trigger display_value="">0c0ef042c355021029107405e40131d1</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=19ec78cec315021029107405e4013184"/>

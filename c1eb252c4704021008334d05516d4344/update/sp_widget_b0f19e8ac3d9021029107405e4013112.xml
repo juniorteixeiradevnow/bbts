@@ -64,10 +64,11 @@
         'Entrevista técnica agendada': 6,
         'Candidato aprovado': 7,
 				'Candidato reprovado': 8,
+				'Entrevista técnica cancelada': 9
 			};
 
 		data.indicedostatus = statusobj[data.status];
-		gs.addInfoMessage("INDICE:" + data.indicedostatus)
+		//gs.addInfoMessage("INDICE:" + data.indicedostatus)
 			
 		} else {
 			data.formJaRespondido = true;
@@ -79,20 +80,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 23:31:41</sys_created_on>
         <sys_id>b0f19e8ac3d9021029107405e4013112</sys_id>
-        <sys_mod_count>103</sys_mod_count>
+        <sys_mod_count>115</sys_mod_count>
         <sys_name>Acompanhar participação</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sp_widget_b0f19e8ac3d9021029107405e4013112</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-03 02:51:24</sys_updated_on>
-        <template><![CDATA[
+        <sys_updated_on>2024-04-03 03:49:01</sys_updated_on>
+        <template><![CDATA[<nav class="navbar navbar-expand-lg navbar-light">
+  <p class="navbar-brand">
+    Tech Hire
+  </p>
+</nav>
+
 <div class="container mt-5" ng-if="c.data.render">
-  <h2 class="mb-4">Acompanhamento do Processo Seletivo</h2>
+  <h2 class="mb-4">Acompanhe sua Candidatura</h2>
   
   <div class="card border-primary">
-    <div class="card-header bg-primary text-white">
+    <div class="card-header text-white" style="background-color:#253C78">
       Informações Gerais {{data.indicedostatus}}
     </div>
     <div class="card-body">
@@ -101,14 +107,14 @@
       <p class="card-text"><strong>Status Atual:</strong> {{data.status}}</p>
       
       <h4 class="mt-4">Fases do Processo:</h4>
-      <ul class="list-group" ng-if="data.indicedostatus !== 8">
+      <ul class="list-group" ng-if="data.indicedostatus !== 8 && data.indicedostatus !== 9">
         <li class="list-group-item d-flex justify-content-between align-items-center" >
           Envio da Candidatura
           <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus < 1">⚠</span>
 					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus >= 1">✔</span>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-center">
-          Avaliação da Candidatura
+          Avaliação do Perfil pela Equipe
          <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus <= 2">⚠</span>
 					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus > 2">✔</span>
 
@@ -134,8 +140,8 @@
 					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus == 7">✔</span>
         </li>
       </ul>
-      <ul class="list-group" ng-if="data.indicedostatus == 8">
-        	<span class="badge badge-primary badge-pill" style="background-color:red" ng-if="data.indicedostatus === 8">Lamentamos muito infelizmente você foi reprovado no processo seletivo!</span>
+      <ul class="list-group" ng-if="data.indicedostatus == 8 || data.indicedostatus == 9">
+        	<span class="badge badge-primary badge-pill" style="background-color:red">Lamentamos muito infelizmente você foi reprovado no processo seletivo!</span>
       </ul>
       
     </div>
