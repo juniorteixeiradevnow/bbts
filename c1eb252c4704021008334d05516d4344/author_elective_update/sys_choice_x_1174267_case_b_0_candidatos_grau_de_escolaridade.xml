@@ -20,6 +20,82 @@
             <element>grau_de_escolaridade</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Doutorado</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 17:23:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 17:23:50</sys_updated_on>
+            <value>Doutorado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grau_de_escolaridade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ensino Fundamental Completo</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 17:23:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 17:23:50</sys_updated_on>
+            <value>Ensino Fundamental Completo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grau_de_escolaridade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ensino Médio Completo</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 17:23:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 17:23:49</sys_updated_on>
+            <value>Ensino Médio Completo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grau_de_escolaridade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ensino Superior Completo</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 17:23:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 17:23:49</sys_updated_on>
+            <value>Ensino Superior Completo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grau_de_escolaridade</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Ensino Fundamental</label>
             <language>en</language>
             <name>x_1174267_case_b_0_candidatos</name>
@@ -33,6 +109,82 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-05 23:06:50</sys_updated_on>
             <value>ensino_fundamental</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grau_de_escolaridade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Especialização</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 17:23:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 17:23:50</sys_updated_on>
+            <value>Especialização</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grau_de_escolaridade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Graduação Incompleta</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 17:23:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 17:23:50</sys_updated_on>
+            <value>Graduação Incompleta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grau_de_escolaridade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mestrado</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 17:23:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 17:23:50</sys_updated_on>
+            <value>Mestrado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grau_de_escolaridade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pós-Graduação</label>
+            <language>en</language>
+            <name>x_1174267_case_b_0_candidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 17:23:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 17:23:49</sys_updated_on>
+            <value>Pós-Graduação</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

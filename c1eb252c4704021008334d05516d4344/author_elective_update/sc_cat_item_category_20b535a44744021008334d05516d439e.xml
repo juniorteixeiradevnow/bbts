@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Formulário Candidatos">9b643d244744021008334d05516d439a</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 02:18:52</sys_created_on>
+        <sys_id>20b535a44744021008334d05516d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Formulário Candidatos</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sc_cat_item_category_20b535a44744021008334d05516d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 02:18:52</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</application>
+        <file_path/>
+        <instance_id>f26183941b5d421065324089bd4bcb04</instance_id>
+        <instance_name>dev250840</instance_name>
+        <name>sc_cat_item_category_20b535a44744021008334d05516d439e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Formulário Candidatos">9b643d244744021008334d05516d439a</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 02:18:52</sys_created_on>
+        <sys_id>20b535a44744021008334d05516d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Formulário Candidatos</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sc_cat_item_category_20b535a44744021008334d05516d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 02:18:52</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>-182342714</payload_hash>
+        <record_name>Office.Formulário Candidatos</record_name>
+        <reverted_from/>
+        <source>43a87ed5c311021029107405e40131a8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-31 18:25:45</sys_created_on>
+        <sys_id>40c8b619c311021029107405e401310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e95c2a69e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-31 18:25:45</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>00c8b6195e110210397558a35b3cc00c</update_guid>
+        <update_guid_history>00c8b6195e110210397558a35b3cc00c:-182342714</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.Formulário Candidatos">d1cece5ac3dd421029107405e4013144</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 17:56:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>28d77be9fe444b5b9898cc9fda7e1d01</sys_id>
+        <sys_metadata>20b535a44744021008334d05516d439e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Formulário Candidatos</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_scope_delete display_value="">01e6c8d2601048c880237a851a04b864</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_20b535a44744021008334d05516d439e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_20b535a44744021008334d05516d439e">40c8b619c311021029107405e401310c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 17:56:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b202a76dc3d5421029107405e4013165</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>8c2c52dac311821029107405e40131fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>user_reference</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>be02a76dc3d5421029107405e4013165</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c82c52dac311821029107405e40131fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>nome</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b602a76dc3d5421029107405e4013166</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c02c52dac311821029107405e40131ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>email</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>be02a76dc3d5421029107405e4013166</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c82c52dac311821029107405e40131ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>cpf</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b602a76dc3d5421029107405e4013167</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c02c92dac311821029107405e4013100</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,167 +74,153 @@
             <element>anexo</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>be02a76dc3d5421029107405e4013167</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c82c92dac311821029107405e4013100</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>chave_de_acesso</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b602a76dc3d5421029107405e4013168</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>data_da_entrevista</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>be02a76dc3d5421029107405e4013168</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c02c92dac311821029107405e4013101</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>data_da_entrevista_tecnica</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b602a76dc3d5421029107405e4013169</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c82c92dac311821029107405e4013101</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>be02a76dc3d5421029107405e4013169</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c02c92dac311821029107405e4013102</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>data_de_nascimento</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b602a76dc3d5421029107405e401316a</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c82c92dac311821029107405e4013102</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>estado_civil</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>be02a76dc3d5421029107405e401316a</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c02c92dac311821029107405e4013103</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>telefone</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b602a76dc3d5421029107405e401316b</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c82c92dac311821029107405e4013103</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>genero</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>be02a76dc3d5421029107405e401316b</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c02c92dac311821029107405e4013104</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>grau_de_escolaridade</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b602a76dc3d5421029107405e401316c</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c82c92dac311821029107405e4013104</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>nivel_tecnico</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>be02a76dc3d5421029107405e401316c</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c02c92dac311821029107405e4013105</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>16</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 16:04:38</sys_created_on>
-            <sys_id>b602a76dc3d5421029107405e401316d</sys_id>
+            <sys_created_on>2024-04-03 18:54:37</sys_created_on>
+            <sys_id>c82c92dac311821029107405e4013105</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1174267_case_b_0_candidatos" sys_domain="global" view="Default view">64ece16c4704021008334d05516d4320</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 16:04:38</sys_updated_on>
+            <sys_updated_on>2024-04-03 18:54:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

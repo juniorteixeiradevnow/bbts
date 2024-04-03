@@ -14,7 +14,10 @@
         <element label="Estado" max_length="200" name="estado" type="string"/>
         <element choice="3" label="Estado civil" max_length="40" name="estado_civil" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Divorciado" sequence="0" value="Divorciado"/>
+                <element inactive_on_update="false" label="Solteira" sequence="0" value="Solteira"/>
                 <element inactive_on_update="false" label="Solteiro" sequence="0" value="solteiro"/>
+                <element inactive_on_update="false" label="Viúvo" sequence="0" value="Viúvo"/>
                 <element inactive_on_update="false" label="Casado" sequence="1" value="casado"/>
             </choice>
         </element>
@@ -30,7 +33,15 @@
         </element>
         <element choice="1" label="Grau de Escolaridade" max_length="40" name="grau_de_escolaridade" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Doutorado" sequence="0" value="Doutorado"/>
                 <element inactive_on_update="false" label="Ensino Fundamental" sequence="0" value="ensino_fundamental"/>
+                <element inactive_on_update="false" label="Ensino Fundamental Completo" sequence="0" value="Ensino Fundamental Completo"/>
+                <element inactive_on_update="false" label="Ensino Médio Completo" sequence="0" value="Ensino Médio Completo"/>
+                <element inactive_on_update="false" label="Ensino Superior Completo" sequence="0" value="Ensino Superior Completo"/>
+                <element inactive_on_update="false" label="Especialização" sequence="0" value="Especialização"/>
+                <element inactive_on_update="false" label="Graduação Incompleta" sequence="0" value="Graduação Incompleta"/>
+                <element inactive_on_update="false" label="Mestrado" sequence="0" value="Mestrado"/>
+                <element inactive_on_update="false" label="Pós-Graduação" sequence="0" value="Pós-Graduação"/>
                 <element inactive_on_update="false" label="Ensino Fundamental Incompleto" sequence="1" value="ensino_fundamental_incompleto"/>
                 <element inactive_on_update="false" label="Ensino Médio incompleto" sequence="2" value="ensino_m_dio_incompleto"/>
                 <element inactive_on_update="false" label="Ensino Médio" sequence="3" value="ensino_m_dio"/>
