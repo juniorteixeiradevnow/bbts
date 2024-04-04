@@ -68,7 +68,6 @@
 			};
 
 		data.indicedostatus = statusobj[data.status];
-		//gs.addInfoMessage("INDICE:" + data.indicedostatus)
 			
 		} else {
 			data.formJaRespondido = true;
@@ -80,36 +79,38 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 23:31:41</sys_created_on>
         <sys_id>b0f19e8ac3d9021029107405e4013112</sys_id>
-        <sys_mod_count>115</sys_mod_count>
+        <sys_mod_count>142</sys_mod_count>
         <sys_name>Acompanhar participação</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sp_widget_b0f19e8ac3d9021029107405e4013112</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-03 03:49:01</sys_updated_on>
+        <sys_updated_on>2024-04-04 20:16:10</sys_updated_on>
         <template><![CDATA[<nav class="navbar navbar-expand-lg navbar-light">
   <p class="navbar-brand">
     Tech Hire
   </p>
 </nav>
 
-<div class="container mt-5" ng-if="c.data.render">
+<div class="container mt-5" ng-if="c.data.formNaoRespondido">
   <h2 class="mb-4">Acompanhe sua Candidatura</h2>
   
   <div class="card border-primary">
     <div class="card-header text-white" style="background-color:#253C78">
-      Informações Gerais {{data.indicedostatus}}
+      Informações Gerais
     </div>
     <div class="card-body">
       <p class="card-text"><strong>Nome do Candidato:</strong> <b>{{data.nome}}</b></p>
       <p class="card-text"><strong>Data de Inscrição:</strong> {{data.datadainscricao}}</p>
       <p class="card-text"><strong>Status Atual:</strong> {{data.status}}</p>
       
+       
       <h4 class="mt-4">Fases do Processo:</h4>
       <ul class="list-group" ng-if="data.indicedostatus !== 8 && data.indicedostatus !== 9">
         <li class="list-group-item d-flex justify-content-between align-items-center" >
           Envio da Candidatura
+        
           <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus < 1">⚠</span>
 					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus >= 1">✔</span>
         </li>
@@ -117,11 +118,15 @@
           Avaliação do Perfil pela Equipe
          <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus <= 2">⚠</span>
 					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus > 2">✔</span>
-
+					
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-center">
           Entrevista Pessoal
+          
+          
+            
           <span class="badge badge-primary badge-pill" style="background-color:#ffc107" ng-if="data.indicedostatus <= 3 || data.indicedostatus == 4">⚠</span>
+       
 					<span class="badge badge-primary badge-pill" style="background-color:#28a745" ng-if="data.indicedostatus > 4">✔</span>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -146,8 +151,15 @@
       
     </div>
   </div>
+  
+  <div>
+      Fase Pendente ou Atual: <span class="badge badge-primary badge-pill" style="background-color:#ffc107">⚠</span>
+
+		Fase Concluida: <span class="badge badge-primary badge-pill" style="background-color:#28a745">✔</span>
+   
+  </div>
 </div>
-<div class="container mt-5" ng-if="!c.data.render">
+<div class="container mt-5 justify-content-center align-items-center" style="display:flex; justify-content:center; align-items:center;" ng-if="c.data.formJaRespondido">
 	<h3>
     Você não tem permissão para acessar essa página!
   </h3>
