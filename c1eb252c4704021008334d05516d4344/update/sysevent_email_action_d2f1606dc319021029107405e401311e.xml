@@ -40,7 +40,7 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p data-tinymcerootblock=""><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Ol&aacute;,<strong> ${nome}</strong></span></span><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">, ficamos felizes com o seu interesse em participar do nosso processo seletivo!</span></span></p>
-<p data-tinymcerootblock=""><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Para dar continuidade e avan&ccedil;ar nesse processo, precisamos de mais informa&ccedil;&otilde;es sobre voc&ecirc;, clique no bot&atilde;o abaixo e envie um email respondendo as perguntas adicionais:</span></span></p>
+<p data-tinymcerootblock=""><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Para dar continuidade e avan&ccedil;ar nesse processo, precisamos de mais informa&ccedil;&otilde;es sobre voc&ecirc;, clique no bot&atilde;o abaixo e responda as perguntas adicionais:</span></span></p>
 <p>&nbsp;</p>
 <p><a style="display: inline-block; padding: 10px 20px; background: linear-gradient(to right, #8075ff, #6320ee); color: white; text-align: center; text-decoration: none; border-radius: 5px; border: none; cursor: pointer;" href="https://dev250840.service-now.com/bbts?id=formulario_perguntas_adicionais&amp;acesskey=${chave_de_acesso}"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><strong>Responder as perguntas adicionais</strong></span></span></a></p>
 <p>Voc&ecirc; tamb&eacute;m pode acompanhar sua candidatura clicando no bot&atilde;o</p>
@@ -68,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2f1606dc319021029107405e401311e</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Envia email com as perguntas adicionais</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
@@ -76,7 +76,7 @@
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sysevent_email_action_d2f1606dc319021029107405e401311e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-05 03:11:16</sys_updated_on>
+        <sys_updated_on>2024-04-05 12:44:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

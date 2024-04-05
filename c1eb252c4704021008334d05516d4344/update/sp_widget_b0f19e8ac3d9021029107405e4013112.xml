@@ -5,6 +5,8 @@
   /* widget controller */
   var c = this;
 	
+	
+	//Pegar a chave de acesso por url via regex
 	var url = location.href;
 	var regex = /acesskey=([^&]*)/;
 	var match = url.match(regex);
@@ -44,6 +46,7 @@
 
 	
 	if(input){
+	//Busca no banco de dados pela chave de acesso
 	var gr = new GlideRecord('x_1174267_case_b_0_candidatos')
 		gr.addEncodedQuery('chave_de_acesso=' + input.acesskey);
 		gr.query();
@@ -52,8 +55,10 @@
 			data.formNaoRespondido = true;
 			data.nome = gr.getDisplayValue('nome');
 			data.status = gr.getDisplayValue('status');
-			data.datadantrevista = gr.getDisplayValue('data_da_entrevista');
+			data.datadaentrevista = gr.getDisplayValue('data_da_entrevista');
+			data.datadaentrevistatec = gr.getDisplayValue('data_da_entrevista_tecnica');
 			data.datadainscricao = gr.getDisplayValue('sys_created_on');
+			
 			
 			var statusobj = {
 				'Candidatura recebida': 1,
@@ -79,14 +84,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 23:31:41</sys_created_on>
         <sys_id>b0f19e8ac3d9021029107405e4013112</sys_id>
-        <sys_mod_count>142</sys_mod_count>
+        <sys_mod_count>151</sys_mod_count>
         <sys_name>Acompanhar participação</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sp_widget_b0f19e8ac3d9021029107405e4013112</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-04 20:16:10</sys_updated_on>
+        <sys_updated_on>2024-04-05 13:54:22</sys_updated_on>
         <template><![CDATA[<nav class="navbar navbar-expand-lg navbar-light">
   <p class="navbar-brand">
     Tech Hire
@@ -104,6 +109,8 @@
       <p class="card-text"><strong>Nome do Candidato:</strong> <b>{{data.nome}}</b></p>
       <p class="card-text"><strong>Data de Inscrição:</strong> {{data.datadainscricao}}</p>
       <p class="card-text"><strong>Status Atual:</strong> {{data.status}}</p>
+      <p class="card-text"><strong>Data da entrevista:</strong> {{data.datadaentrevista ? data.datadaentrevista : "Entrevista Pessoal nao marcada ainda!"}}</p>
+      <p class="card-text"><strong>Data da entrevista time técnico:</strong> {{data.datadaentrevistatec ? data.datadaentrevistatec: "Entrevista Técnica não marcada ainda!" }}</p>
       
        
       <h4 class="mt-4">Fases do Processo:</h4>

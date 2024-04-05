@@ -13,6 +13,8 @@
 		var key = match[1];
 		c.data.acesskey = key;
 		$scope.server.update();
+	} else {
+		data.formJaRespondido = true;
 	}
 	
 	
@@ -100,17 +102,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-01 00:07:06</sys_created_on>
         <sys_id>1ce64465c395021029107405e40131d0</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>Confirmação data da entrevista</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sp_widget_1ce64465c395021029107405e40131d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-04 01:30:18</sys_updated_on>
-        <template><![CDATA[<div id="container" ng-if="c.data.formNaoRespondido">
-  
+        <sys_updated_on>2024-04-05 12:55:58</sys_updated_on>
+        <template><![CDATA[
 
+<div id="container" ng-if="c.data.formNaoRespondido">
+  
+<nav class="navbar navbar-expand-lg navbar-light">
+  <p class="navbar-brand">
+    Tech Hire
+  </p>
+</nav>
+  
 <div class="container mt-5">
   <h2 class="text-center">Solicitar nova Data da Entrevista</h2>
   <div class="row mt-3">
@@ -148,7 +157,7 @@
 <script type="text/javascript">
   $(function() {
     $('#datetimepicker1').datetimepicker({
-      format: 'YYYY-MM-DD hh:mm:ss',
+      format: 'YYYY-MM-DD HH:mm:ss',
       language: 'en'
     });
   });

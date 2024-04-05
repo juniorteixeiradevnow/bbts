@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
     <sp_page action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <css>.navbar-brand {
+        <css>
+
+.navbar-brand {
       font-family: 'Roboto', sans-serif;
-      font-size: 24px;
+      font-size: 4rem;
       font-weight: bold;
-      color: #ffc100;
+      color: #fff;
       width: 100%;
       text-align: center;
     }
-    .navbar {
-      background-color: #007bff; 
-    }</css>
+.navbar {
+      background-color: #253C78; 
+}
+</css>
         <draft>false</draft>
         <dynamic_title_structure/>
         <human_readable_url_structure/>
@@ -26,14 +29,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-01 00:07:06</sys_created_on>
         <sys_id>50e60869c395021029107405e4013158</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>data_da_entrevista</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sp_page_50e60869c395021029107405e4013158</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-03 03:33:13</sys_updated_on>
+        <sys_updated_on>2024-04-05 12:26:41</sys_updated_on>
         <title>Confirmação data da entrevista</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

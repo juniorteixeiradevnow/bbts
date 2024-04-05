@@ -6,11 +6,12 @@
   /* widget controller */
   var c = this;
 	
+	//Limpando os campos de pergunta
 	c.data.pergunta1 = "";
 	c.data.pergunta2 = "";
 	c.data.pergunta3 = "";
 	
-	
+	//Pegar a chave de acesso por url via regex
 	var url = location.href;
 	var regex = /acesskey=([^&]*)/;
 	var match = url.match(regex);
@@ -20,7 +21,8 @@
 		$scope.server.update();
 	}
 	
-	
+
+//Renderização condicional
 c.renderWidget = function (){
 		if(c.data.render){
 			return true
@@ -72,6 +74,8 @@ c.renderError = function (){
 	/* populate the 'data' object */
 	/* e.g., data.table = $sp.getValue('table'); */
 	
+	
+	//Verificando se usuário existe no Banco de dados
 	if(input){
 		var gr = new GlideRecord('x_1174267_case_b_0_candidatos')
 		gr.addEncodedQuery('chave_de_acesso=' + input.acesskey + '^perguntas_respondidas=nao');
@@ -89,6 +93,7 @@ c.renderError = function (){
 	}
 	
 	if(input){
+		//Ação de update
 		if(input.action == "onSubmit"){
 			var gr2 = new GlideRecord('x_1174267_case_b_0_candidatos')
 			gr2.addEncodedQuery('chave_de_acesso=' + input.acesskey + '^perguntas_respondidas=nao');
@@ -112,16 +117,22 @@ c.renderError = function (){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-11 19:53:44</sys_created_on>
         <sys_id>e51dcc039730ce105e9fb680f053af8c</sys_id>
-        <sys_mod_count>166</sys_mod_count>
+        <sys_mod_count>171</sys_mod_count>
         <sys_name>Formulario perguntas adicionais</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sp_widget_e51dcc039730ce105e9fb680f053af8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 00:46:53</sys_updated_on>
+        <sys_updated_on>2024-04-05 13:55:44</sys_updated_on>
         <template><![CDATA[
+
 <div class="container mx-auto" ng-if="c.renderWidget()">
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <p class="navbar-brand">
+    Tech Hire
+  </p>
+</nav>
   <div class="rounded-sm">
     <div class="row g-2">
       <div class="col-md-4 mx-auto d-block">
@@ -170,9 +181,9 @@ c.renderError = function (){
   
 </div>
 <div style="display:flex; justify-content:center; align-items:center;" ng-if="c.renderError()">
-  <h4>
-    Você já respondeu esse formulário!
-  </h4>
+  <h3>
+    Você já respondeu esse formulário, ou não tem permissão para acessa-lo!
+  </h3>
 </div>
 
 
