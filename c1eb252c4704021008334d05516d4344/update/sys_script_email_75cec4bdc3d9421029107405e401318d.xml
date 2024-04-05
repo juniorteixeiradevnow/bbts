@@ -8,7 +8,7 @@
 
 
 
-		  var mailButtons = '<a style="display: inline-block; padding: 10px 20px; background: linear-gradient(to right, #28a745, #7bd500); color: black; text-align: center; text-decoration: none; border-radius: 5px; border: none; cursor: pointer; margin-right: 10px;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=RE:%20Confirmação%20entrevista%20técnica&amp;body=Eu%20aprovo%20entrevista%20tecnica%20%0D%0A %0D%0A' + encodeURIComponent(email.watermark) + '"><b>Aprovar</b></a> <a style="display: inline-block; padding: 10px 20px; background: linear-gradient(to right, #ff6b6b, #ff0080, #ff80bf); color: black; text-align: center; text-decoration: none; border-radius: 5px; border: none; cursor: pointer;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=RE:%20Confirmação%20entrevista%20técnica&amp;body=Eu%20rejeito%20a%20data%20da%20entrevista%20técnica %0D%0A %0D%0A' + encodeURIComponent(email.watermark) + '"><b>Rejeitar</b></a>';
+		  var mailButtons = '<a style="display: inline-block; padding: 10px 20px; background: linear-gradient(to right, #28a745, #7bd500); color: black; text-align: center; text-decoration: none; border-radius: 5px; border: none; cursor: pointer; margin-right: 10px;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=RE:%20Confirmação%20entrevista%20técnica&amp;body=Eu%20aprovo%20entrevista%20tecnica%20%0D%0A%20%0D%0A' + encodeURIComponent(email.watermark) + '"><b>Aprovar</b></a> <a style="display: inline-block; padding: 10px 20px; background: linear-gradient(to right, #ff6b6b, #ff0080, #ff80bf); color: black; text-align: center; text-decoration: none; border-radius: 5px; border: none; cursor: pointer;" href="mailto:techhireprocessoseletivo2024@gmail.com?subject=RE:%20Confirmação%20entrevista%20técnica&amp;body=Eu%20rejeito%20a%20data%20da%20entrevista%20técnica%20%0D%0A%20%0D%0A' + encodeURIComponent(email.watermark) + '"><b>Rejeitar</b></a>';
 		  template.print(mailButtons);
 
 })(current, template, email, email_action, event);]]></script>
@@ -16,13 +16,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-01 19:22:00</sys_created_on>
         <sys_id>75cec4bdc3d9421029107405e401318d</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>RenderApproveRecjectTec</sys_name>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_script_email_75cec4bdc3d9421029107405e401318d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-05 03:49:49</sys_updated_on>
+        <sys_updated_on>2024-04-05 14:36:06</sys_updated_on>
     </sys_script_email>
 </record_update>

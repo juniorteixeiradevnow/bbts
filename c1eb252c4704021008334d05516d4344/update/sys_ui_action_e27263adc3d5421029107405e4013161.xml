@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.status == "candidatura_recebida";</condition>
+        <condition>current.status == "candidatura_recebida"</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -32,7 +32,9 @@
         <order>100</order>
         <script><![CDATA[current.status = "analisando_candidato";
 current.update();
-gs.addInfoMessage("Candidato esta em fase de analise");]]></script>
+action.setRedirectURL(current);
+gs.addInfoMessage("Candidato esta em fase de analise");
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -43,7 +45,7 @@ gs.addInfoMessage("Candidato esta em fase de analise");]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e27263adc3d5421029107405e4013161</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Analisar candidato</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
@@ -51,7 +53,7 @@ gs.addInfoMessage("Candidato esta em fase de analise");]]></script>
         <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
         <sys_update_name>sys_ui_action_e27263adc3d5421029107405e4013161</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 18:06:01</sys_updated_on>
+        <sys_updated_on>2024-04-05 14:15:30</sys_updated_on>
         <table>x_1174267_case_b_0_candidatos</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
