@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6a84c97ec399021029107405e4013123" extends="sys_import_set_row" label="Candidatos Data Mapping" max_length="40" name="x_1174267_case_b_0_ihub_import_2d24cd3ec399021029107405e4013154" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bairro" label="Bairro" max_length="40" name="u_bairro" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cep" label="Cep" max_length="40" name="u_cep" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cidade" label="Cidade" max_length="40" name="u_cidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CPF" label="CPF" max_length="40" name="u_cpf" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Data de Nascimento" label="Data de Nascimento" max_length="40" name="u_data_de_nascimento" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Estado" label="Estado" max_length="40" name="u_estado" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Estado civil" label="Estado civil" max_length="40" name="u_estado_civil" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Gênero" label="Gênero" max_length="40" name="u_gênero" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Grau de Escolaridade" label="Grau de Escolaridade" max_length="40" name="u_grau_de_escolaridade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Idiomas Espanhol" label="Idiomas Espanhol" max_length="40" name="u_idiomas_espanhol" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Idiomas Inglês" label="Idiomas Inglês" max_length="40" name="u_idiomas_inglês" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Idiomas Português" label="Idiomas Português" max_length="40" name="u_idiomas_português" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nome" label="Nome" max_length="40" name="u_nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rua" label="Rua" max_length="40" name="u_rua" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Telefone" label="Telefone" max_length="40" name="u_telefone" type="string"/>
+    </element>
+</database>

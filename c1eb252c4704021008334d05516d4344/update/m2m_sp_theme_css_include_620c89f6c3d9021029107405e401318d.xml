@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include">
+    <m2m_sp_theme_css_include action="INSERT_OR_UPDATE">
+        <order/>
+        <sp_css_include display_value="bbts_css">d7fb413ac3d9021029107405e401311e</sp_css_include>
+        <sp_theme display_value="bbts tema">b3bb89f6c3d9021029107405e40131ff</sp_theme>
+        <sys_class_name>m2m_sp_theme_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 02:21:41</sys_created_on>
+        <sys_id>620c89f6c3d9021029107405e401318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bbts_css.bbts tema</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>m2m_sp_theme_css_include_620c89f6c3d9021029107405e401318d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 02:21:41</sys_updated_on>
+    </m2m_sp_theme_css_include>
+</record_update>

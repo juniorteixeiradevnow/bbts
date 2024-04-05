@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_concat_operation">
+    <sys_rte_eb_concat_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <joining_string/>
+        <name>CONCAT_sn_ihub_target_data_de_nascimento</name>
+        <operation_group/>
+        <order>9999</order>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>7184897ec399021029107405e401319f,f184897ec399021029107405e40131a1</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_concat_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 01:48:51</sys_created_on>
+        <sys_id>7184897ec399021029107405e40131f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONCAT_sn_ihub_target_data_de_nascimento</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Candidatos Data Mapping_etl_ihub">b5244d3ec399021029107405e4013117</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_1174267_case_b_0_candidatos">e984897ec399021029107405e401318b</sys_rte_eb_entity>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sys_rte_eb_concat_operation_7184897ec399021029107405e40131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 01:48:51</sys_updated_on>
+        <target_sys_rte_eb_field display_value="sn_ihub_target_data_de_nascimento">7184897ec399021029107405e401319f</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Concatenation">4e38102a73b333002b6265a751ab9e1f</type>
+    </sys_rte_eb_concat_operation>
+</record_update>

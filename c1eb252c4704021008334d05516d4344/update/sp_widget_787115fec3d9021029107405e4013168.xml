@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.j_slide_item_btn {
+  height: 300px;
+  
+   
+}
+
+.image-container {
+  position: relative;
+  margin: 2.8rem;
+  overflow: hidden;
+}
+
+.btn-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.home-text {
+  position: absolute;
+  top: 30%;
+  right: 40%;
+  transform: translate(-50%, -50%);
+  
+  color: #030303;
+}
+
+.home-text h1 {
+  font-size: 3.3rem;
+  font-weight: 600;
+  font-family: system-ui;
+  margin-bottom: -15px;
+}
+
+.home-text h3 {
+  font-family: system-ui;
+}
+
+// typeheadsearch
+
+sp-widget {
+  color: white;
+}
+
+#homepage-search {
+  .form-control {
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+
+    //width:110%;
+  }
+
+  button {
+    background-color: white;
+
+    border-radius: 0px 25px 25px 0px;
+  }
+  button:target {
+    background-color: white;
+  }
+  .aisearch {
+    --classicsponlydonotuse--rem-multipy: 1.6;
+  }
+}
+
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 1800px) {
+  .home-text{
+    top: 40%;
+  right: 40%;
+  }
+}
+@media (max-width: 1600px) {
+  .home-text{
+    top: 40%;
+  right: 40%;
+  }
+}
+@media (max-width: 1444px) {
+  .home-text{
+    top: 40%;
+  right: 35%;
+  }
+  .home-text h1 {
+    font-size: 3.0rem;
+    margin-bottom: -15px;
+  }
+  .home-text h3 {
+    font-size: 2.0rem;
+
+  }
+  .j_slide_item_btn {
+    height: 200px;
+  }
+}
+@media (max-width: 1098px) {
+  .home-text{
+    top: 40%;
+  right: 25%;
+  }
+}
+@media (max-width: 1120px) {
+  .home-text{
+    top: 40%;
+  right: 25%;
+  }
+}
+@media (max-width: 1210px) {
+  .home-text{
+    top: 40%;
+  right: 25%;
+  }
+}
+@media (max-width: 820px) {
+  .j_slide_item_btn {
+    height: 80px;
+  }
+  .home-text{
+    top: 40%;
+  right: 35%;
+  }
+}
+
+@media (max-width: 774px) {
+  .home-text{
+    top: 45%;
+  right: 33%;
+  }
+
+  .j_slide_item_btn {
+    height: 60px;
+  }
+  .home-text h1 {
+    font-size: 2.0rem;
+    margin-bottom: -15px;
+  }
+  .home-text h3 {
+    font-size: 1.5rem;
+   
+  }
+}
+@media (max-width: 630px) {
+  .home-text{
+    top: 35%;
+  right: 3.4rem
+  }
+}
+@media (max-width: 555px) {
+  .home-text{
+    top: 35%;
+  right: 3.9rem
+  }
+
+  .j_slide_item_btn {
+    height: 60px;
+  }
+  .btn-image {
+    height: 70px;
+  }
+  .home-text h1 {
+    font-size: 1.7rem;
+    margin-bottom: -15px;
+  }
+  .home-text h3 {
+    font-size: 1.2rem;
+   
+  }
+}
+
+@media (max-width: 472px) {
+  .j_slide_item_btn {
+    height: 50px;
+  }
+  .home-text h1 {
+    font-size: 1.4rem;
+    margin-bottom: -15px;
+  }
+  .home-text h3 {
+    font-size: 1.0rem;
+   
+  }
+  .home-text{
+    top: 42%;
+  right: 1.9rem;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .j_slide_item_btn {
+    height: 50px;
+  }
+  .home-text h1 {
+    font-size: 1.3rem;
+    margin-bottom: -15px;
+  }
+  .home-text h3 {
+    font-size: 0.9rem;
+   
+  }
+  .home-text{
+    top: 40%;
+  right: 1%;
+  }
+
+}
+@media (max-width: 320px) {
+  .home-text{
+   top: 20%;
+ right: -0%;
+  }
+
+  .home-text h1 {
+    font-size: 1.3rem;
+    margin-bottom: -15px;
+  }
+  .home-text h3 {
+    font-size: 0.7rem;
+   
+}
+
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>home_tech_hire</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Home Tech Hire</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 02:45:19</sys_created_on>
+        <sys_id>787115fec3d9021029107405e4013168</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Home Tech Hire</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sp_widget_787115fec3d9021029107405e4013168</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 02:47:27</sys_updated_on>
+        <template><![CDATA[<div class="j_slide_item_btn ">
+  <div class="image-container">
+    <img class="btn-image" ng-src="/tech_hire_header_new.png" alt="" title="">
+    
+  </div>
+  <div id="homepage-search" >
+    <div class="btn-search">
+      <h2 class="text-center text-4x m-b-lg sp-tagline-color" ng-bind="options.title"></h2>
+      <div ng-if="options.short_description" class="text-center h4 m-b-lg sp-tagline-color" ng-bind="options.short_description"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <sp-widget widget="data.typeAheadSearch"></sp-widget>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Home Tech Hire - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="home_tech_hire">f20a0536c3d9021029107405e40131ac</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 02:35:58</sys_created_on>
+        <sys_id>445f013ec3d9021029107405e4013156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Tech Hire - Container 2</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sp_container_445f013ec3d9021029107405e4013156</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 02:35:58</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</application>
+        <file_path/>
+        <instance_id>f26183941b5d421065324089bd4bcb04</instance_id>
+        <instance_name>dev250840</instance_name>
+        <name>sp_container_445f013ec3d9021029107405e4013156</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Home Tech Hire - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="home_tech_hire">f20a0536c3d9021029107405e40131ac</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-05 02:35:58</sys_created_on><sys_id>445f013ec3d9021029107405e4013156</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Home Tech Hire - Container 2</sys_name><sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package><sys_policy/><sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope><sys_update_name>sp_container_445f013ec3d9021029107405e4013156</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-05 02:35:58</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1950284658</payload_hash>
+        <record_name>Home Tech Hire - Container 2</record_name>
+        <reverted_from/>
+        <source>dc09b659c311021029107405e401311f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 02:35:58</sys_created_on>
+        <sys_id>485f013ec3d9021029107405e4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18eac1ce6020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 02:35:58</sys_updated_on>
+        <type>Container</type>
+        <update_guid>4c5f013ed9d9021080d3b0746c124f57</update_guid>
+        <update_guid_history>4c5f013ed9d9021080d3b0746c124f57:1950284658</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home Tech Hire - Container 2">615fcdfac3d9021029107405e4013131</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 02:36:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>299afa7a051644618c0b5c996d278389</sys_id>
+        <sys_metadata>445f013ec3d9021029107405e4013156</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Tech Hire - Container 2</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_scope_delete display_value="">01e6c8d2601048c880237a851a04b864</sys_scope_delete>
+        <sys_update_name>sp_container_445f013ec3d9021029107405e4013156</sys_update_name>
+        <sys_update_version display_value="sp_container_445f013ec3d9021029107405e4013156">485f013ec3d9021029107405e4013158</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 02:36:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
