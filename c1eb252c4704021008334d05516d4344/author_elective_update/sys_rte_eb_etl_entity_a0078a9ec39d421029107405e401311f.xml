@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="DELETE">
+        <child_id_field/>
+        <name>Source_x_1174267_case_b_0_ihub_import_dc074a5ec39d421029107405e401317a</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path/>
+        <run_business_rules>false</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 17:22:21</sys_created_on>
+        <sys_id>a0078a9ec39d421029107405e401311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Source_x_1174267_case_b_0_ihub_import_dc074a5ec39d421029107405e401317a</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Candidatos Data Mapping_etl_ihub">2c07429ac39d421029107405e40131ac</sys_rte_eb_definition>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_a0078a9ec39d421029107405e401311f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 17:22:21</sys_updated_on>
+        <table>x_1174267_case_b_0_ihub_import_dc074a5ec39d421029107405e401317a</table>
+    </sys_rte_eb_etl_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</application>
+        <file_path/>
+        <instance_id>f26183941b5d421065324089bd4bcb04</instance_id>
+        <instance_name>dev250840</instance_name>
+        <name>sys_rte_eb_etl_entity_a0078a9ec39d421029107405e401311f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity"><sys_rte_eb_etl_entity action="INSERT_OR_UPDATE"><child_id_field/><name>Source_x_1174267_case_b_0_ihub_import_dc074a5ec39d421029107405e401317a</name><parent_entity/><parent_id_field/><path/><run_business_rules>false</run_business_rules><synchronize_inserts>false</synchronize_inserts><sys_class_name>sys_rte_eb_etl_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-03 17:22:21</sys_created_on><sys_id>a0078a9ec39d421029107405e401311f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Source_x_1174267_case_b_0_ihub_import_dc074a5ec39d421029107405e401317a</sys_name><sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package><sys_policy/><sys_rte_eb_definition display_value="Candidatos Data Mapping_etl_ihub">2c07429ac39d421029107405e40131ac</sys_rte_eb_definition><sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope><sys_update_name>sys_rte_eb_etl_entity_a0078a9ec39d421029107405e401311f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 17:22:21</sys_updated_on><table>x_1174267_case_b_0_ihub_import_dc074a5ec39d421029107405e401317a</table></sys_rte_eb_etl_entity></record_update>]]></payload>
+        <payload_hash>1611023848</payload_hash>
+        <record_name>Source_x_1174267_case_b_0_ihub_import_dc074a5ec39d421029107405e401317a</record_name>
+        <reverted_from/>
+        <source>dc09b659c311021029107405e401311f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 17:22:22</sys_created_on>
+        <sys_id>bc078a9ec39d421029107405e4013121</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea4fbb1080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 17:22:22</sys_updated_on>
+        <type>ETL Entity</type>
+        <update_guid>70078a9e419d42108e25d4206ec09721</update_guid>
+        <update_guid_history>70078a9e419d42108e25d4206ec09721:1611023848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 17:47:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_entity">sys_rte_eb_etl_entity</sys_db_object>
+        <sys_id>056add56805c46a081950b2e5325eb90</sys_id>
+        <sys_metadata>a0078a9ec39d421029107405e401311f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Source_x_1174267_case_b_0_ihub_import_dc074a5ec39d421029107405e401317a</sys_name>
+        <sys_package display_value="Case Banco Brasil Tecnologia" source="x_1174267_case_b_0">c1eb252c4704021008334d05516d4344</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Banco Brasil Tecnologia">c1eb252c4704021008334d05516d4344</sys_scope>
+        <sys_scope_delete display_value="">01e6c8d2601048c880237a851a04b864</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_entity_a0078a9ec39d421029107405e401311f</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_entity_a0078a9ec39d421029107405e401311f">bc078a9ec39d421029107405e4013121</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 17:47:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
